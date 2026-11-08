@@ -1,0 +1,6 @@
+Episode 3 | The Table
+TIME | TYPE | CHARACTER | TEXT
+00:00 - 00:04 | SCENE | INT. OFFICE – DAY
+00:00 - 00:04 | ACTION | The door bursts open.
+00:04 - 00:07 | DIALOGUE | MARCUS | (whispering) It's from your father.
+00:07 - 00:10 | DIALOGUE | AVA | What does it say?

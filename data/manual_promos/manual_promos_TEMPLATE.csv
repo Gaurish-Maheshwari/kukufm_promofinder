@@ -1,0 +1,6 @@
+promo_id,segment,episode,start,end,hook,cliffhanger,notes
+# One row per segment. A promo built from 2+ moments uses the same promo_id on several rows (segment 1, 2, ...).
+# Timestamps: mm:ss, hh:mm:ss, mm:ss.s or seconds. Episode: 3, Ep 3 or Episode 3. Delete these # lines or leave them; they are ignored.
+EX1,1,1,00:07,00:55,"Wine thrown in her face","'You're nothing'","example row — replace with your own"
+EX2,1,4,01:06,01:30,"The slap","Doors burst open","example multi-segment promo, part 1"
+EX2,2,5,00:00,00:10,"","She is the heiress","part 2"

@@ -1,0 +1,20 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Helvetica, Arial, sans-serif", "fontSize": "14px", "primaryColor": "#ffffff", "primaryBorderColor": "#17192c", "lineColor": "#4b4f66"}}}%%
+classDiagram
+  direction LR
+  class Show { title; episodes; characters }
+  class Episode { number; title; source; parse_confidence; duration }
+  class Scene { id; heading; start; end }
+  class Beat { idx; start; end; kind; speaker; text; timed; signals }
+  class Candidate { segments; kind; features; score; breakdown }
+  class Promo { id; rank; post_order; score; hook; cliffhanger; why; tropes; flags; variants; transcript }
+  class Segment { episode; start; end; first_beat; last_beat }
+  class ManualPromo { id; segments; hook; cliffhanger }
+  class Comparison { summary; rows; new_finds }
+  Show "1" --> "*" Episode
+  Episode "1" --> "*" Scene
+  Episode "1" --> "*" Beat
+  Candidate "1" --> "1..3" Segment
+  Promo "1" --> "1..3" Segment
+  Segment ..> Beat : snapped to
+  Comparison ..> Promo
+  Comparison ..> ManualPromo

@@ -1,0 +1,23 @@
+# Confidential input pack — never commit Kuku's screenplays
+data/input/*
+!data/input/.gitkeep
+!data/input/README.md
+
+# Generated
+outputs/runs/
+outputs/*/
+!outputs/raw_outputs_sample/
+.cache/
+data/feedback/*.jsonl
+config/learned_weights.yaml
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.vercel
+.DS_Store
+*.egg-info/
+build/
+frontend/tsconfig.tsbuildinfo

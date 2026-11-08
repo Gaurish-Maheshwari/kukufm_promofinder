@@ -1,0 +1,30 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Helvetica, Arial, sans-serif", "fontSize": "14px", "primaryColor": "#ffffff", "primaryBorderColor": "#17192c", "lineColor": "#4b4f66"}}}%%
+flowchart TB
+  B["Each beat<br/>(line / action)"] --> S1["Hook cues<br/>physical · reveal · shocking line<br/>romance · confrontation · emotion<br/>+ ! and CAPS"]
+  B --> S2["Cliffhanger cues<br/>cut-off line · open question<br/>pending reveal · arrival · threat"]
+  B --> S3["Resolution cues<br/>thanks · hugs · 'it's fine'"]
+  B --> S4["Context cues<br/>opening pronoun / reply<br/>'like I said', 'last night'"]
+  B --> S5["Tropes<br/>slap · hidden identity · pregnancy…"]
+
+  W["Window = beats i…j<br/>20 ≤ duration ≤ 60 s"] --> F1["hook = best hook in first 3 s<br/>(decays with delay)"]
+  W --> F2["cliffhanger = last beat cliff<br/>− resolution · + tease of next reveal<br/>+ episode-end bonus"]
+  W --> F3["stand-alone = 1 − context penalties"]
+  W --> F4["intensity · pace · length fit · trope"]
+  W --> F5["spoiler = late episode × reveal"]
+  S1 --> F1
+  S2 --> F2
+  S3 --> F2
+  S4 --> F3
+  S5 --> F4
+
+  F1 & F2 & F3 & F4 & F5 --> SC["Score 0–100 =<br/>Σ weightᵢ·featureᵢ − spoiler<br/>× gates (no hook / no cliff / bad length)<br/>× 0.9 if stitched"]
+  SC --> LL{"LLM key?"}
+  LL -- yes --> BL["final = ½ rules + ½ LLM judge<br/>(top 30 only)"]
+  LL -- no --> SEL
+  BL --> SEL["Select: drop overlaps (IoU > 0.35)<br/>max 3 per episode · MMR for variety<br/>min score 45"]
+  SEL --> PO["Posting order: spoiler-safe first<br/>alternate tropes · rationale"]
+
+  classDef hook fill:#fde6ef,stroke:#e0367a;
+  classDef cliff fill:#dff2f5,stroke:#13899f;
+  class S1,F1 hook
+  class S2,F2 cliff

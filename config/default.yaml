@@ -1,0 +1,74 @@
+# ---------------------------------------------------------------------------
+# Kuku Promo Finder — default configuration
+# Every number that changes behaviour lives here, not in code.
+# Override any key with:  promo-finder run --config my.yaml   (deep-merged)
+# ---------------------------------------------------------------------------
+
+show_title: "Untitled show"
+
+parser:
+  fps: 30                       # used only for SMPTE hh:mm:ss:ff timecodes
+  words_per_second: 2.6         # speech rate used to estimate missing durations
+  min_beat_seconds: 0.8
+  max_estimated_beat_seconds: 8.0
+  split_on_timestamp_reset: true  # one file with several episodes but no headers
+
+promo:
+  min_seconds: 20               # brief: 20–60 s
+  max_seconds: 60
+  target_seconds: 35            # sweet spot for Reels/TikTok
+  hook_window_seconds: 3.0      # brief: hook inside the first 3 s
+  pre_roll_seconds: 0.0         # editor handles added to exported IN/OUT points
+  post_roll_seconds: 0.4
+  top_k: 30                     # promos returned (at most)
+  min_score: 45                 # promos scoring below this are not returned
+  max_per_episode: 3            # diversity cap
+  candidates_per_episode: 40    # kept before global ranking
+  nms_iou: 0.35                 # overlap above which the weaker promo is dropped
+  mmr_lambda: 0.78              # 1.0 = pure score, lower = more variety
+  enable_montages: true         # multi-segment promos (within/across episodes)
+  max_montages: 8               # multi-segment candidates generated
+  max_montages_selected: 3      # …and at most this many in the final list
+  montage_penalty: 0.9          # score multiplier: a stitched promo must be clearly better to win
+
+platforms:                      # presets selectable in UI / CLI
+  any:     {min_seconds: 20, max_seconds: 60, target_seconds: 35}
+  tiktok:  {min_seconds: 20, max_seconds: 35, target_seconds: 27}
+  reels:   {min_seconds: 25, max_seconds: 45, target_seconds: 35}
+  shorts:  {min_seconds: 30, max_seconds: 60, target_seconds: 45}
+
+weights:                        # heuristic scorer; sum does not need to be 1
+  hook: 0.30
+  cliffhanger: 0.25
+  standalone: 0.15
+  intensity: 0.12
+  pace: 0.05
+  duration_fit: 0.05
+  trope: 0.05
+  episode_end: 0.03
+  spoiler_penalty: 0.08         # subtracted
+
+use_learned_weights: true       # use config/learned_weights.yaml if present
+
+schedule:
+  spoiler_safe_episode_fraction: 0.4   # first 40% of episodes are "safe" to post first
+  first_wave_size: 5
+
+llm:
+  enabled: auto                 # auto = use it when LLM_API_KEY is set
+  rerank_top_n: 30              # only the best N heuristic candidates go to the LLM
+  batch_size: 5                 # candidates per LLM call
+  blend_alpha: 0.5              # final = alpha*heuristic + (1-alpha)*llm
+  max_concurrency: 3
+  temperature: 0.2
+  max_output_tokens: 2048
+  timeout_seconds: 60
+  allow_boundary_edits: true    # LLM may tighten start/end, snapped to real beats
+  cache_dir: .cache/llm
+  max_total_seconds: 300        # time budget for the whole LLM step (45 s on Vercel); rest stays rules-ranked
+  circuit_breaker_failures: 2   # consecutive failed calls before the LLM step gives up for this run
+
+evaluation:
+  match_iou: 0.30               # temporal IoU to call an AI promo a match
+  match_coverage: 0.50          # …or covers >= 50% of the manual promo
+  hook_tolerance_seconds: 3.0

@@ -1,0 +1,31 @@
+# docker compose up --build        -> http://localhost:8000
+# docker compose --profile local-llm up --build   -> also starts Ollama (set LLM_API_KEY=ollama, LLM_BASE_URL=http://ollama:11434/v1)
+services:
+  app:
+    build: .
+    image: kuku-promo-finder:latest
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      ALLOW_LOCAL_PATHS: "1"
+    volumes:
+      - ./data/input:/app/data/input:ro          # drop the input pack here; read-only inside the container
+      - ./data/manual_promos:/app/data/manual_promos
+      - ./data/feedback:/app/data/feedback
+      - ./outputs:/app/outputs                    # every run is saved to outputs/runs/<run_id>/
+      - ./config:/app/config                      # tune weights/lexicons without rebuilding
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["local-llm"]
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+
+volumes:
+  ollama:

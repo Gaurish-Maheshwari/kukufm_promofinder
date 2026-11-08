@@ -1,0 +1,36 @@
+Episode 4 | The Gala
+TIME | TYPE | CHARACTER | TEXT
+00:00 - 00:04 | SCENE | INT. SECURITY ROOM – DAY
+00:00 - 00:04 | ACTION | Ethan and a technician scroll through grainy footage.
+00:04 - 00:09 | DIALOGUE | TECHNICIAN | The study camera was switched off at nine. By an admin account.
+00:09 - 00:11 | DIALOGUE | ETHAN | Whose account?
+00:11 - 00:15 | DIALOGUE | TECHNICIAN | It's registered to... Miss Vance.
+00:15 - 00:18 | ACTION | Ethan's hands curl into fists.
+00:18 - 00:22 | SCENE | INT. CROSS MANSION – CHLOE'S BEDROOM – DAY
+00:18 - 00:22 | ACTION | Chloe stuffs documents into a shredder.
+00:22 - 00:25 | ACTION | Her phone buzzes. A message: "He knows."
+00:25 - 00:27 | DIALOGUE | CHLOE | No, no, no.
+00:27 - 00:31 | SCENE | INT. CAFE – DAY
+00:27 - 00:31 | ACTION | Ava sips coffee with Marcus. Quiet.
+00:31 - 00:35 | DIALOGUE | MARCUS | The lilies in the garden are blooming early this year.
+00:35 - 00:38 | DIALOGUE | AVA | Grandfather loved those lilies.
+00:38 - 00:41 | DIALOGUE | MARCUS | He'd be proud of you, Miss.
+00:41 - 00:44 | ACTION | The cafe door opens. Ethan walks in, breathless.
+00:44 - 00:48 | DIALOGUE | ETHAN | It was Chloe. She framed you. I'm so sorry.
+00:48 - 00:51 | DIALOGUE | AVA | Sorry doesn't give me back my name.
+00:51 - 00:57 | DIALOGUE | ETHAN | Then let me give you something else. Come to the gala tonight. As my guest.
+00:57 - 00:59 | ACTION | Marcus raises an eyebrow.
+00:59 - 01:03 | DIALOGUE | AVA | As your guest? Your fiancée will be there.
+01:03 - 01:06 | DIALOGUE | ETHAN | She's not my fiancée anymore.
+01:06 - 01:11 | SCENE | INT. CROSS MANSION BALLROOM – NIGHT
+01:06 - 01:11 | ACTION | The gala. Ava enters in a stunning midnight-blue gown. The room turns.
+01:11 - 01:14 | ACTION | Chloe, at the bar, slams down her glass.
+01:14 - 01:17 | DIALOGUE | CHLOE | How dare you show your face here!
+01:17 - 01:20 | ACTION | Chloe raises her hand and slaps Ava hard across the face.
+01:20 - 01:22 | ACTION | The music stops.
+01:22 - 01:25 | ACTION | Ava slowly turns her head back and slaps Chloe twice as hard.
+01:25 - 01:29 | DIALOGUE | AVA | That's for the wine. The next one is for the ring.
+01:29 - 01:32 | DIALOGUE | VIVIAN | Security! Arrest this woman!
+01:32 - 01:36 | ACTION | The ballroom doors burst open. Mr. Hale enters with two police officers.
+01:36 - 01:40 | DIALOGUE | MR. HALE | Nobody touches the chairwoman of Cross Holdings.
+01:40 - 01:43 | ACTION | Every face in the ballroom turns to Ava.

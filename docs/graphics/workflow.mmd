@@ -1,0 +1,30 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Helvetica, Arial, sans-serif", "fontSize": "14px", "actorBkg": "#ffffff", "actorBorder": "#17192c", "signalColor": "#17192c", "noteBkgColor": "#fde6ef", "noteBorderColor": "#e0367a"}}}%%
+sequenceDiagram
+  autonumber
+  actor Ed as Editor / marketer
+  participant UI as Web UI (or CLI)
+  participant API as FastAPI
+  participant EN as promo_engine
+  participant LLM as LLM (optional)
+
+  Ed->>UI: Drop folder / zip of 50 screenplays (+ manual promos CSV)
+  UI->>API: POST /api/jobs (files, options)
+  API->>EN: run_pipeline()
+  EN->>EN: Read every file, split episodes, parse timed beats
+  EN->>EN: Score every beat (hook, cliffhanger, intensity, context)
+  EN->>EN: Score every 20–60 s window that starts/ends on a beat
+  opt LLM_API_KEY set
+    EN->>LLM: Top 30 candidates as numbered lines (5 per call)
+    LLM-->>EN: Scores, hook / cliffhanger / why, tighter L# bounds
+    EN->>EN: Validate edits against real beats, blend 50/50 with rules
+  end
+  EN->>EN: Diverse top-K, posting order, quality flags
+  EN->>EN: Match against manual promos (IoU), diagnose each miss
+  EN-->>API: Run result (promos, transcripts, metrics, comparison)
+  API-->>UI: Job done (UI polls progress meanwhile)
+  Ed->>UI: Review ranked list, phone preview, keep / reject
+  UI->>API: POST /api/feedback (stored for `promo-finder learn`)
+  Ed->>UI: Export cut sheet / EDL
+  UI->>API: POST /api/export/edl (stateless)
+  API-->>Ed: promos.edl → Premiere / Resolve timeline
+  Note over Ed,EN: An editor's day of watching becomes ~1 s of compute plus a review of the top 10.

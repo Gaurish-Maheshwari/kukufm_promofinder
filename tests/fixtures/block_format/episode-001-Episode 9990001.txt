@@ -1,0 +1,66 @@
+EPISODE NUMBER: Episode 1
+EPISODE LOGLINE: A seamstress is publicly accused of theft at the masquerade, and the masked stranger who defends her is not who he claims.
+CONTINUITY NOTES: First episode of the series. Establishes Mara's ruin.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. GRAND BALLROOM – NIGHT
+Scene start: 00:00.00
+Scene end: 00:31.00
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.00)
+Slow push-in on Mara standing alone beneath the chandelier, clutching a torn ribbon.
+
+**COUNTESS VALE (Icy, Loud):**
+Start: (00:00.50) | End: (00:02.80)
+"Seize her. She is a thief!"
+
+**ACTION:**
+Start: (00:03.00) | End: (00:06.00)
+Two guards grab Mara by the arms and drag her across the marble floor.
+
+**MARA (Desperate, Breathless):**
+Start: (00:06.20) | End: (00:08.40)
+"I took nothing! Search me!"
+
+**CAMERA:**
+Start: (00:08.40) | End: (00:11.00)
+Close-up on the Countess's gloved hand slipping a sapphire brooch into Mara's apron.
+
+**THE MASKED STRANGER (O.S.) (Calm, Commanding):**
+Start: (00:11.20) | End: (00:13.60)
+"Let her go."
+
+**SOUND FX:**
+Start: (00:13.60) | End: (00:14.40)
+The music stops dead; a hush falls across the room.
+
+**COUNTESS VALE (Sneering):**
+Start: (00:14.50) | End: (00:16.90)
+"And who are you to give orders here?"
+
+**ACTION:**
+Start: (00:17.00) | End: (00:21.00)
+The stranger steps into the light and slowly lifts his mask. The guests gasp.
+
+**LADY MARA (Whispering, Stunned):**
+Start: (00:21.20) | End: (00:23.00)
+"It's you..."
+
+**CAMERA:**
+Start: (00:23.00) | End: (00:26.00)
+Extreme close-up on the stranger's scarred face, unreadable.
+
+**THE MASKED STRANGER (Quiet, Dangerous):**
+Start: (00:26.20) | End: (00:30.80)
+"I am the Duke of Ashgrove. And this woman is my wife—"
+
+**CAMERA:**
+Start: (00:30.80) | End: (00:31.00)
+Abrupt cut to black.
+
+--- SCRIPT END ---

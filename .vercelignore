@@ -1,0 +1,11 @@
+# Keep the deployment small and keep confidential screenplays off the internet.
+data/input/
+data/feedback/
+outputs/
+tests/
+docs/
+.cache/
+**/__pycache__/
+frontend/node_modules/
+*.pyc
+.env

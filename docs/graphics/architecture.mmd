@@ -1,0 +1,49 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryColor": "#ffffff", "primaryBorderColor": "#17192c", "lineColor": "#4b4f66", "clusterBkg": "#f2f3f7", "clusterBorder": "#dadce5"}}}%%
+flowchart LR
+  subgraph IN["Input (any of)"]
+    direction TB
+    F1["Folder of .txt"]
+    F2["Nested folders"]
+    F3[".zip (zip-in-zip ok)"]
+    F4["PDF · DOCX · MD · SRT · CSV"]
+  end
+
+  subgraph ENGINE["promo_engine (pure Python, no LLM required)"]
+    direction TB
+    I["<b>Ingest</b><br/>loader · extractors · parser<br/><i>any layout → timed beats</i>"]
+    A["<b>Analyse</b><br/>lexicon cues · characters<br/>hook · cliffhanger · intensity · stand-alone"]
+    G["<b>Generate</b><br/>every beat-aligned 20–60 s window<br/>+ cold-open &amp; cross-episode montages"]
+    R["<b>Rank</b><br/>explainable weighted score<br/>NMS + MMR diversity · posting plan"]
+    E["<b>Evaluate</b><br/>quality flags · metrics<br/>vs. your manual promos"]
+    X["<b>Export</b><br/>JSON · CSV · cut sheet · EDL<br/>markers · ffmpeg · HTML/MD"]
+    I --> A --> G --> R --> E --> X
+  end
+
+  subgraph LLM["Optional AI judge — one key, any provider"]
+    direction TB
+    K["LLM_API_KEY<br/>prefix → provider"]
+    P["Gemini · Groq · OpenAI · Anthropic<br/>OpenRouter · Ollama · any OpenAI-compatible"]
+    C[("Disk cache")]
+    K --> P
+    P --- C
+  end
+
+  R -. "top 30 candidates<br/>numbered lines only" .-> LLM
+  LLM -. "scores + hook/cliff/why<br/>edits snapped to real beats" .-> R
+
+  subgraph APP["Web app"]
+    direction TB
+    UI["React + Vite UI<br/>upload · review · compare · export"]
+    API["FastAPI<br/>/api/jobs · /api/export · /api/feedback"]
+    UI <--> API
+  end
+
+  IN --> I
+  API --> ENGINE
+  X --> OUT["outputs/&lt;run&gt;/<br/>raw outputs for editors"]
+  CLI["CLI: promo-finder run / parse / learn"] --> ENGINE
+
+  classDef hook fill:#fde6ef,stroke:#e0367a,color:#17192c;
+  classDef cliff fill:#dff2f5,stroke:#13899f,color:#17192c;
+  class G,R hook
+  class E,X cliff

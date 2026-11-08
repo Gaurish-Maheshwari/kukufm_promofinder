@@ -1,0 +1,11 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Helvetica, Arial, sans-serif", "fontSize": "14px", "primaryColor": "#ffffff", "primaryBorderColor": "#17192c", "lineColor": "#4b4f66"}}}%%
+flowchart LR
+  subgraph BEFORE["Today — per show"]
+    direction TB
+    b1["Watch 50 episodes<br/>(~75–100 min of footage)"] --> b2["Note moments by hand"] --> b3["Scrub to find IN/OUT"] --> b4["Pick & order promos"]
+  end
+  subgraph AFTER["With Promo Finder"]
+    direction TB
+    a1["Drop screenplays folder"] --> a2["Ranked promos in ~1–2 s<br/>hook · cliffhanger · why · flags"] --> a3["Review top 10<br/>phone preview, keep / reject"] --> a4["Import EDL / cut sheet<br/>into the NLE"]
+  end
+  BEFORE -. "human stays in the loop<br/>for taste & final cut" .-> AFTER

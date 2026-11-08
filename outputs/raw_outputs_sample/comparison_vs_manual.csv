@@ -1,0 +1,11 @@
+manual_id,manual_segments,manual_duration_s,status,ai_id,ai_rank,ai_segments,iou,coverage,start_delta_s,end_delta_s,hook_agrees,diagnosis
+M1,Ep1 00:07.0-00:55.0,48.0,matched,P06,6,Ep1 00:14.0-00:50.0,0.75,0.75,7.0,-5.0,False,Found. Boundaries differ by more than 5 s.
+M2,Ep1 00:36.0-00:49.0 + Ep1 01:12.0-01:35.0,36.0,matched,P01,1,Ep1 00:50.0-01:37.0,0.383,0.639,14.0,2.0,False,Found. Boundaries differ by more than 5 s.
+M3,Ep2 00:35.0-01:22.0,47.0,matched,P07,7,Ep2 01:07.0-01:11.0 + Ep2 00:30.0-01:07.0,0.692,0.766,32.0,-15.0,False,Found. Boundaries differ by more than 5 s.
+M4,Ep2 01:22.0-01:39.0 + Ep3 00:00.0-00:13.0,30.0,matched,P10,10,Ep2 01:07.0-01:39.5,0.374,0.567,-15.0,,False,Found. Boundaries differ by more than 5 s.
+M5,Ep3 00:33.0-01:01.0,28.0,matched,P13,13,Ep3 00:29.0-00:55.0,0.688,0.786,-4.0,-6.0,False,Found. Boundaries differ by more than 5 s.
+M6,Ep4 01:06.0-01:43.0,37.0,matched,P04,4,Ep4 01:14.0-01:36.0,0.595,0.595,8.0,-7.0,False,Found. Boundaries differ by more than 5 s.
+M7,Ep5 01:02.0-01:30.0,28.0,matched,P09,9,Ep5 00:50.0-01:30.0,0.7,1.0,-12.0,0.0,False,Found. Boundaries differ by more than 5 s.
+M8,Ep6 00:00.0-00:27.0,27.0,matched,P08,8,Ep6 00:00.0-00:28.0,0.964,1.0,0.0,1.0,True,Found.
+M9,Ep7 00:59.0-01:21.0,22.0,matched,P14,14,Ep7 00:28.0-01:20.0,0.396,0.955,-31.0,-1.0,False,Found. Boundaries differ by more than 5 s.
+M10,Ep8 00:59.0-01:27.0,28.0,matched,P03,3,Ep8 01:03.0-01:27.0,0.857,0.857,4.0,0.0,True,Found.

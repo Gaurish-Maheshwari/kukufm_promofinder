@@ -1,0 +1,14 @@
+promo_id,segment,episode,start,end,hook,cliffhanger,notes
+# Picked by hand by the repo author BEFORE running the tool, as an editor would. Lines starting with # are ignored.
+M1,1,1,00:07,00:55,"Careful, maid — glasses shatter","You'll regret this / You're nothing","Humiliation set-up; pure ReelShort opener"
+M2,1,1,00:36,00:49,"Wine thrown in her face","","Multi-segment: wine throw then the secret"
+M2,2,1,01:12,01:35,"","Who's in there with you?","Secret reveal + someone at the door"
+M3,1,2,00:35,01:22,"My engagement ring — it's gone","The cameras were broken. What a shame.","Framed by the fiancée"
+M4,1,2,01:22,01:39,"Thrown out into the rain","","Cross-episode: thrown out -> heiress"
+M4,2,3,00:00,00:13,"","Don't tell anyone. Not yet.",""
+M5,1,3,00:33,01:01,"The thief came back for more","Ethan walks in","Lobby humiliation flips"
+M6,1,4,01:06,01:43,"How dare you! — the slap","Every face turns to Ava","The best one. Post first."
+M7,1,5,01:02,01:30,"It's me. Plan B. Tonight.","Who's there?","Threat + envelope + curtain moves"
+M8,1,6,00:00,00:27,"Hooded figure grabs Ava by the throat","Her father set the fire?","Cold open attack"
+M9,1,7,00:59,01:21,"You're eight weeks pregnant","Ava overhears","Pregnancy trope"
+M10,1,8,00:59,01:27,"Open it. Prove you're the father.","The father is—","DNA cliffhanger"

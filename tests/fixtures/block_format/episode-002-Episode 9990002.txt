@@ -1,0 +1,54 @@
+EPISODE NUMBER: Episode 2
+EPISODE LOGLINE: The Duke's claim shocks the ballroom, and the Countess demands proof.
+CONTINUITY NOTES: Picks up directly from Episode 1's cliffhanger.
+
+--- SCRIPT START ---
+
+SCENE 01
+SCENE HEADING: INT. GRAND BALLROOM – CONTINUOUS
+SCENE START: 00:00.00
+SCENE END: 00:27.00
+
+ACTIONS AND DIALOGUE:
+
+**COUNTESS VALE (Shrill):**
+Start: (00:00.00) | End: (00:02.50)
+"Your wife? She is a common seamstress!"
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:03.00)
+Whip pan across the stunned guests.
+
+**DUKE OF ASHGROVE (Cold):**
+Start: (00:03.20) | End: (00:06.00)
+"Then you have accused a duchess of theft. Guards. Arrest the Countess."
+
+**ACTION:**
+Start: (00:06.00) | End: (00:10.00)
+The guards hesitate, then turn and seize the Countess by the wrists.
+
+**COUNTESS VALE (Screaming):**
+Start: (00:10.20) | End: (00:12.40)
+"You will regret this!"
+
+**MARA (Trembling):**
+Start: (00:12.60) | End: (00:15.00)
+"Why are you protecting me?"
+
+**DUKE OF ASHGROVE (Low):**
+Start: (00:15.20) | End: (00:18.80)
+"Because the brooch she planted on you belonged to my mother."
+
+**ACTION:**
+Start: (00:19.00) | End: (00:23.00)
+A shot rings out from the balcony. The Duke staggers and collapses.
+
+**MARA (Screaming):**
+Start: (00:23.20) | End: (00:26.80)
+"No! Somebody help him—"
+
+**CAMERA:**
+Start: (00:26.80) | End: (00:27.00)
+Smash cut to black.
+
+--- SCRIPT END ---

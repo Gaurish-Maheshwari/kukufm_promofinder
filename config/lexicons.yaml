@@ -1,0 +1,200 @@
+# ---------------------------------------------------------------------------
+# Cue lexicons. Each pattern is a case-insensitive regular expression matched
+# against one beat (a line of dialogue or an action). Weights are 0–1 and are
+# combined as 1 - Π(1 - w) so several weak cues add up but never exceed 1.
+# Tune freely — no code changes needed.
+# ---------------------------------------------------------------------------
+
+hook:
+  physical:            # a slap, a shove, a thrown drink — the classic scroll-stopper
+    weight: 0.95
+    patterns:
+      - "\\bslap(s|ped|ping)?\\b"
+      - "\\bpunch(es|ed)?\\b"
+      - "\\bshoves?\\b|\\bshoved\\b|\\bpushe[sd]\\b"
+      - "\\bgrabs?\\b.*\\b(collar|throat|hair|wrist|arm)\\b"
+      - "\\bthrows?\\b.*\\b(drink|wine|water|glass|ring|papers)\\b"
+      - "\\b(drink|wine|water)\\b.*\\b(in|across|over) (her|his|their) face\\b"
+      - "\\bchokes?\\b|\\bstrangl"
+      - "\\bkicks?\\b|\\bknocks? .* (down|over)\\b"
+      - "\\b(collapses|collapsed|faints|fainted|passes out)\\b|\\bfalls? (to|on|onto) (the )?(floor|ground|her knees|his knees)\\b"
+      - "\\b(stabs?|stabbed|strikes (her|him)|struck|whips?|whipped|lash(es|ed)?|backhands?)\\b"
+      - "\\b(seizes?|seized|drags?|dragged|pins?|pinned|shackled|chained|in chains|bound and)\\b"
+      - "\\b(sword|dagger|arrow|pistol|rifle|noose)\\b|\\bpoison(ed|s)?\\b"
+      - "\\b(burning|in flames|engulfed|set (it|the \\w+) on fire)\\b"
+      - "\\bblood\\b|\\bbleed"
+      - "\\b(knife|gun|blade)\\b"
+  reveal:              # identity / secret / status reveals
+    weight: 0.9
+    patterns:
+      - "\\bi'?m (actually|really|the)\\b"
+      - "\\bthe real\\b"
+      - "\\b(you'?re|i'?m|he'?s|she'?s) (my|his|her|the) (real |biological |long[- ]lost )?(son|daughter|father|mother|sister|brother|wife|husband|heir|heiress)\\b"
+      - "\\bpregnant\\b|\\bbaby\\b.*\\b(yours|mine|his)\\b"
+      - "\\bdna\\b|\\bpaternity\\b"
+      - "\\bsecret(ly)?\\b"
+      - "\\b(i'?m|i am|you'?re|you are|he'?s|he is|she'?s|she is|is|was|were) (the |a |an |your |my |his |her )?(secret |real |true |rightful |lost |long[- ]lost |future )?(heir|heiress|billionaire|ceo|owner|chairman|duke|duchess|prince|princess|king|queen|emperor|earl|alpha|luna)\\b"
+      - "\\b(is|are|was|were|'s|'re) (marrying|engaged to|betrothed to|carrying (his|her|my) child)\\b|\\bmarrying (me|her|him|my|your)\\b"
+      - "\\b(not dead|still alive|came back from the dead|faked (his|her) death|true (name|identity|heir))\\b"
+      - "\\b(bastard|illegitimate|disinherit\\w*|adopted|switched at birth)\\b"
+      - "\\b(she|he|you) (owns?|bought) (the|this)\\b"
+      - "\\bnot who\\b|\\bwho (you|she|he) really (is|are)\\b"
+      - "\\breveal(s|ed)?\\b|\\bunmask"
+      - "\\b(contract|will|deed|documents?|photos?|video|recording)\\b.*\\b(shows?|proves?|says?)\\b"
+      - "\\b(ring|necklace|wallet|evidence|phone|letter|envelope)\\b.*\\b(falls?|drops?|slides?|spills?) (out|onto|from|across)\\b"
+  shocking_line:       # lines that make a scroller stop
+    weight: 0.8
+    patterns:
+      - "\\bhow dare you\\b"
+      - "\\b(you'?re|you are) (fired|nothing|worthless|trash|a gold ?digger)\\b"
+      - "\\bget out\\b|\\bget lost\\b"
+      - "\\bon your knees\\b|\\bkneel\\b|\\bbeg (me|for)\\b"
+      - "\\bdivorce\\b|\\bcall off the wedding\\b|\\bwedding is off\\b"
+      - "\\bi never loved you\\b|\\bi hate you\\b"
+      - "\\b(kill|murder(ed)?|dead|die)\\b"
+      - "\\bmarry me\\b|\\bbe my wife\\b"
+      - "\\bliar\\b|\\bcheat(ed|ing|er)?\\b|\\baffair\\b"
+      - "\\byou'?ll regret\\b|\\bpay for this\\b"
+      - "\\bstay away from\\b"
+      - "\\b(you'?re|you are|just|nothing but|only) (a |an )?(maid|peasant|beggar|nobody|servant|cleaner)\\b|\\ba nobody\\b"
+      - "\\b(witch|witchcraft|murderer|murderess|traitor|harlot|whore|thief|monster|demon|cursed)\\b"
+      - "\\b(hang|burn|execute|behead|kill|arrest|seize|take) (her|him|them|the girl|the witch)\\b|\\bexecut(ed|ion)\\b|\\bat the stake\\b"
+      - "\\b(disown(ed)?|banish(ed)?|exile[ds]?|cast out|no (daughter|son|wife) of mine|dead to me)\\b"
+      - "\\b(guilty|on trial|sentenced|condemned)\\b"
+      - "\\b(abandon(ed)?|jilted|left me at the altar|call(ed)? off the wedding|i cannot marry you)\\b"
+  status_mention:      # a title on its own is weak evidence (period dramas say "Duchess" constantly)
+    weight: 0.3
+    patterns:
+      - "\\b(heir|heiress|billionaire|ceo|chairman|duke|duchess|prince|princess|king|queen|alpha|luna)\\b"
+  romance:             # romantic beats sell romance-led shows
+    weight: 0.7
+    patterns:
+      - "\\bkiss(es|ed)?\\b"
+      - "\\bmarry me\\b|\\bbe my (wife|husband)\\b"
+      - "\\binches apart\\b|\\bpins? (her|him) (to|against)\\b"
+      - "\\bi love you\\b|\\byou'?re mine\\b"
+  confrontation:
+    weight: 0.6
+    patterns:
+      - "\\b(shouts?|screams?|yells?|snaps?|hisses|glares?|sneers?|smirks?)\\b"
+      - "\\b(storms?|bursts?) (in|into|out)\\b"
+      - "\\bblocks? (her|his|their) (way|path)\\b"
+      - "\\bconfronts?\\b|\\bcorners?\\b"
+      - "\\b(security|guards?)\\b"
+      - "\\b(shatter|smash|crash)(es|ed)?\\b"
+  emotional_peak:
+    weight: 0.45
+    patterns:
+      - "\\b(tears|sobs?|cries|crying|trembl)\\w*"
+      - "\\b(gasps?|stunned|shocked|frozen|pale)\\b"
+      - "\\bhumiliat\\w*|\\blaughs? at\\b|\\bmock\\w*"
+      - "\\bwhispers?\\b"
+
+cliffhanger:
+  interrupted:         # line cut off mid-sentence
+    weight: 0.85
+    patterns: ["(—|--|\\.\\.\\.|…)\\s*['\"]?\\s*$"]
+  open_question:
+    weight: 0.7
+    patterns:
+      - "\\?\\s*['\"]?\\s*$"
+  reveal_pending:      # the camera holds on someone about to see/learn something
+    weight: 0.85
+    patterns:
+      - "\\bturns? (around|slowly)\\b"
+      - "\\b(eyes|face) (widen|go(es)? pale|drain)\\w*"
+      - "\\bfreezes?\\b|\\bfrozen\\b|\\bstops? (dead|cold)\\b"
+      - "\\b(stares?|looks?) (in|with) (shock|horror|disbelief)\\b"
+      - "\\bcan'?t believe\\b"
+      - "\\bopens? the (envelope|letter|file|box|door)\\b"
+      - "\\b(who|what) (are|is) (you|this|that)\\b"
+      - "\\bthe (truth|answer) is\\b"
+      - "\\bit'?s (you|him|her)\\b"
+  arrival:             # someone/something new enters the scene
+    weight: 0.75
+    patterns:
+      - "\\bdoor (bursts?|swings?|slams?|flies) open\\b"
+      - "\\b(walks?|steps?|bursts?|storms?) in\\b|\\benters?\\b"
+      - "\\b(phone|doorbell) (rings?|buzz)\\w*"
+      - "\\ba voice (behind|from)\\b|\\b(a|the) (familiar )?voice\\b"
+      - "\\bsirens?\\b|\\bpolice\\b"
+      - "\\bheadlights\\b"
+  threat:
+    weight: 0.7
+    patterns:
+      - "\\byou'?ll regret\\b|\\bthis isn'?t over\\b|\\bor else\\b"
+      - "\\bi'?ll (make you pay|destroy|ruin|expose)\\b"
+      - "\\bjust wait\\b|\\bwatch (me|your back)\\b"
+      - "\\bif you (don'?t|ever)\\b"
+  decision_pending:
+    weight: 0.6
+    patterns:
+      - "\\b(will|would) you\\b.*\\?"
+      - "\\bchoose\\b|\\byes or no\\b|\\bsign (it|this|here)\\b"
+      - "\\byou have (one|two|three|\\d+) (seconds?|minutes?|hours?|days?)\\b"
+  explicit_marker:     # writers sometimes mark it for us
+    weight: 0.95
+    patterns:
+      - "\\bcliff ?hanger\\b|\\bto be continued\\b|\\bsmash cut\\b|\\bcut to black\\b|\\bfreeze[ -]frame\\b|\\bend of episode\\b"
+
+resolution:            # endings that release tension — bad place to cut a promo
+  weight: 0.6
+  patterns:
+    - "\\b(thank you|thanks|goodbye|good night|see you)\\b"
+    - "\\b(hugs?|embrace[sd]?|smiles? (warmly|softly)|laughs? together)\\b"
+    - "\\b(it'?s|everything'?s) (okay|fine|over)\\b|\\bi (understand|forgive you)\\b"
+    - "^\\s*(okay|ok|fine|alright|sure|yes)\\s*[.!]?\\s*$"
+    - "\\b(fade (out|to black)|the end)\\b"
+
+context_dependence:    # lines that only make sense if you watched earlier
+  opening_pronoun:
+    weight: 0.55
+    patterns: ["^\\s*(he|she|they|it|that|this|those|him|her|them)\\b"]
+  opening_reply:
+    weight: 0.45
+    patterns: ["^\\s*(yes|no|and|but|so|because|then|exactly|right|well)\\b"]
+  opening_continuation:   # the line is the second half of a sentence: "...a secret medicine"
+    weight: 0.5
+    patterns: ["^\\s*(\\.\\.\\.|…)\\s*[a-z]"]
+  back_reference:
+    weight: 0.5
+    patterns:
+      - "\\b(as i said|like i said|remember (when|what)|last (night|time|week)|earlier|again|still|after what (happened|you did)|you promised|that night|back then)\\b"
+
+tropes:                # microdrama tropes ReelShort/DramaBox promos lean on
+  slap_humiliation:   ["\\bslap", "\\bhumiliat", "\\bkneel\\b", "\\bon (your|her|his) knees\\b", "\\bmock", "\\blaughs? at\\b", "\\bdrink\\b.*\\bface\\b", "\\bjeer", "\\bshame\\b"]
+  hidden_identity:    ["\\bsecret(ly)?\\b", "\\breal (name|identity|heir)", "\\bwho (you|she|he) really", "\\bdisguise", "\\bunmask", "\\bnot (just )?a (maid|nobody|waitress|driver)"]
+  rich_powerful:      ["\\bbillionaire\\b", "\\bceo\\b", "\\bheir(ess)?\\b", "\\bchairman\\b", "\\bfortune\\b", "\\bmansion\\b", "\\bcompany\\b", "\\bshares\\b"]
+  betrayal_cheating:  ["\\bcheat", "\\baffair\\b", "\\bbetray", "\\bliar\\b", "\\bbehind (my|your) back\\b", "\\bframe[ds]?\\b"]
+  pregnancy_baby:     ["\\bpregnan", "\\bbaby\\b", "\\bpaternity\\b", "\\bdna\\b", "\\bour child\\b"]
+  marriage_contract:  ["\\bcontract\\b", "\\bmarr(y|ied|iage)\\b", "\\bwedding\\b", "\\bfianc", "\\bdivorce\\b", "\\bbride\\b"]
+  revenge:            ["\\brevenge\\b", "\\bpay for (this|what)\\b", "\\bregret\\b", "\\bdestroy\\b", "\\bruin\\b"]
+  family_rejection:   ["\\bdisown", "\\bnot my (son|daughter)\\b", "\\bkicked out\\b", "\\bout of (this|the) family\\b", "\\bstep(mother|sister|mom)\\b"]
+  supernatural:       ["\\balpha\\b", "\\bluna\\b", "\\bmate\\b", "\\bwerewolf\\b", "\\bvampire\\b", "\\breborn\\b", "\\breincarnat"]
+  danger_rescue:      ["\\bkidnap", "\\baccident\\b", "\\bhospital\\b", "\\bsave (me|her|him)\\b", "\\bpoison", "\\bdungeon\\b", "\\bcell\\b", "\\bchains?\\b", "\\bthugs?\\b", "\\bescape\\b"]
+  jilted_betrayal:    ["\\baltar\\b", "\\bjilted\\b", "\\babandon", "\\bmarrying\\b", "\\bbetroth", "\\bsister\\b.*\\b(marry|husband|fianc)", "\\bcalled off\\b"]
+  royalty_status:     ["\\bduke\\b", "\\bduchess\\b", "\\bheir\\b", "\\bthrone\\b", "\\bcrown\\b", "\\broyal\\b", "\\bnoble(man|woman|s)?\\b", "\\bestate\\b", "\\bdowager\\b", "\\bprince(ss)?\\b"]
+  trial_accusation:   ["\\bwitch", "\\btrial\\b", "\\baccus", "\\bguilty\\b", "\\bjudge\\b", "\\bhang(ed|ing)?\\b", "\\bframed?\\b", "\\bsentence"]
+
+trope_value:           # how strongly each trope sells (0–1)
+  slap_humiliation: 1.0
+  hidden_identity: 0.95
+  pregnancy_baby: 0.9
+  betrayal_cheating: 0.9
+  revenge: 0.85
+  marriage_contract: 0.8
+  rich_powerful: 0.75
+  danger_rescue: 0.75
+  family_rejection: 0.7
+  supernatural: 0.8
+  jilted_betrayal: 0.95
+  royalty_status: 0.8
+  trial_accusation: 0.85
+
+# speaker labels that are NOT characters
+non_character_labels:
+  action: ["ACTION", "ACTIONS", "DESCRIPTION", "DESC", "VISUAL", "VISUALS", "SCENE DESCRIPTION", "STAGE", "STAGE DIRECTION", "DIRECTION", "BEAT", "KEY ACTION", "ACTION LINE", "CUT TO", "TRANSITION", "MONTAGE", "FLASHBACK", "B-ROLL", "BLOCKING", "MOVEMENT"]
+  camera: ["CAMERA", "CAM", "SHOT", "SHOTS", "CAMERA DIRECTION", "CAMERA MOVE", "CAMERA MOVEMENT", "ANGLE", "ANGLE ON", "CLOSE ON", "CLOSE UP", "CLOSE-UP", "CU", "WIDE", "WIDE SHOT", "INSERT", "POV", "FRAMING", "LENS"]
+  sfx: ["SFX", "SOUND", "SOUND FX", "SOUND EFFECT", "SOUND EFFECTS", "SOUNDS", "MUSIC", "SCORE", "AUDIO", "FX", "AMBIENCE", "AMBIENT"]
+  text: ["TEXT", "ON SCREEN", "ON-SCREEN TEXT", "SUPER", "CAPTION", "TITLE", "CARD", "SUBTITLE", "CHYRON"]
+  vo: ["NARRATOR", "VO", "V.O.", "VOICEOVER", "VOICE OVER", "NARRATION"]

@@ -1,0 +1,23 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Helvetica, Arial, sans-serif", "fontSize": "14px", "primaryColor": "#ffffff", "primaryBorderColor": "#17192c", "lineColor": "#4b4f66", "clusterBkg": "#f2f3f7"}}}%%
+flowchart LR
+  subgraph V["Vercel (free Hobby)"]
+    VS["Static React build<br/>frontend/dist"]
+    VF["Python function api/index.py<br/>FastAPI · 60 s · /tmp cache"]
+  end
+  subgraph D["Docker / docker compose"]
+    DC["One container :8000<br/>API + built UI"]
+    VOL[("Volumes: data/input (ro)<br/>outputs · config · feedback")]
+    OL["Ollama (profile local-llm)"]
+    DC --- VOL
+    DC -.-> OL
+  end
+  subgraph L["Laptop"]
+    CL["CLI: python -m promo_engine run"]
+    DV["make dev: Vite :5173 → API :8000"]
+  end
+  U(("Editor")) --> V
+  U --> D
+  U --> L
+  V -. "LLM_API_KEY env" .-> P["Any LLM provider"]
+  D -.-> P
+  L -.-> P

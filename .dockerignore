@@ -1,0 +1,11 @@
+.git
+.env
+.cache
+outputs
+data/input
+data/feedback
+frontend/node_modules
+frontend/dist
+**/__pycache__
+.pytest_cache
+docs

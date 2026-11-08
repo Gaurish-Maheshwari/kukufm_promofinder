@@ -1,0 +1,5104 @@
+{
+  "run_id": "94171f537b",
+  "created_at": "2026-11-07T21:15:19+00:00",
+  "version": "1.0.0",
+  "show": {
+    "title": "The Maid Who Owns the Mansion (sample)",
+    "episodes": [
+      {
+        "number": 1,
+        "title": "The Wine",
+        "source": "sample_show.zip!/sample_show/Episode_01.txt",
+        "duration": 97.0,
+        "beats": 28,
+        "scenes": 2,
+        "parse_confidence": 1.0,
+        "warnings": []
+      },
+      {
+        "number": 2,
+        "title": "The Ring",
+        "source": "sample_show.zip!/sample_show/Episode_02.txt",
+        "duration": 99.46,
+        "beats": 30,
+        "scenes": 3,
+        "parse_confidence": 1.0,
+        "warnings": []
+      },
+      {
+        "number": 3,
+        "title": "The Lobby",
+        "source": "sample_show.zip!/sample_show/Episode_03.txt",
+        "duration": 100.0,
+        "beats": 30,
+        "scenes": 2,
+        "parse_confidence": 1.0,
+        "warnings": []
+      },
+      {
+        "number": 4,
+        "title": "The Gala",
+        "source": "sample_show.zip!/sample_show/more/Ep04_table.txt",
+        "duration": 103.0,
+        "beats": 34,
+        "scenes": 4,
+        "parse_confidence": 1.0,
+        "warnings": []
+      },
+      {
+        "number": 5,
+        "title": "The Chairwoman",
+        "source": "sample_show.zip!/sample_show/more/Ep05.docx",
+        "duration": 90.0,
+        "beats": 30,
+        "scenes": 4,
+        "parse_confidence": 1.0,
+        "warnings": []
+      },
+      {
+        "number": 6,
+        "title": "The Intruder",
+        "source": "sample_show.zip!/sample_show/more/Episode 6 (classic).txt",
+        "duration": 95.23,
+        "beats": 30,
+        "scenes": 4,
+        "parse_confidence": 1.0,
+        "warnings": []
+      },
+      {
+        "number": 7,
+        "title": "The Call",
+        "source": "sample_show.zip!/sample_show/late_episodes.zip!/Episodes_07-08.pdf",
+        "duration": 80.0,
+        "beats": 25,
+        "scenes": 3,
+        "parse_confidence": 1.0,
+        "warnings": []
+      },
+      {
+        "number": 8,
+        "title": "The Test",
+        "source": "sample_show.zip!/sample_show/late_episodes.zip!/Episodes_07-08.pdf",
+        "duration": 87.0,
+        "beats": 29,
+        "scenes": 3,
+        "parse_confidence": 1.0,
+        "warnings": []
+      }
+    ],
+    "characters": {
+      "AVA": {
+        "lines": 35,
+        "first_episode": 1,
+        "first_time": 23.0,
+        "episodes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "aliases": [
+          "AVA"
+        ],
+        "also_credited_as": [],
+        "share": 0.2991,
+        "main": true
+      },
+      "ETHAN": {
+        "lines": 24,
+        "first_episode": 1,
+        "first_time": 29.0,
+        "episodes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "aliases": [
+          "ETHAN"
+        ],
+        "also_credited_as": [],
+        "share": 0.2051,
+        "main": true
+      },
+      "CHLOE": {
+        "lines": 22,
+        "first_episode": 1,
+        "first_time": 7.0,
+        "episodes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8
+        ],
+        "aliases": [
+          "CHLOE"
+        ],
+        "also_credited_as": [],
+        "share": 0.188,
+        "main": true
+      },
+      "MARCUS": {
+        "lines": 12,
+        "first_episode": 1,
+        "first_time": 63.0,
+        "episodes": [
+          1,
+          2,
+          4,
+          6,
+          8
+        ],
+        "aliases": [
+          "MARCUS"
+        ],
+        "also_credited_as": [],
+        "share": 0.1026,
+        "main": true
+      },
+      "VIVIAN": {
+        "lines": 8,
+        "first_episode": 1,
+        "first_time": 14.0,
+        "episodes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "aliases": [
+          "VIVIAN"
+        ],
+        "also_credited_as": [],
+        "share": 0.0684,
+        "main": true
+      },
+      "MR. HALE": {
+        "lines": 5,
+        "first_episode": 2,
+        "first_time": 91.0,
+        "episodes": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "aliases": [
+          "HALE",
+          "MR. HALE"
+        ],
+        "also_credited_as": [],
+        "share": 0.0427,
+        "main": false
+      },
+      "RICHARD VANCE": {
+        "lines": 4,
+        "first_episode": 6,
+        "first_time": 86.0,
+        "episodes": [
+          6,
+          7
+        ],
+        "aliases": [
+          "RICHARD",
+          "RICHARD VANCE",
+          "VANCE"
+        ],
+        "also_credited_as": [],
+        "share": 0.0342,
+        "main": false
+      },
+      "RECEPTIONIST": {
+        "lines": 2,
+        "first_episode": 3,
+        "first_time": 20.0,
+        "episodes": [
+          3
+        ],
+        "aliases": [
+          "RECEPTIONIST"
+        ],
+        "also_credited_as": [],
+        "share": 0.0171,
+        "main": false
+      },
+      "TECHNICIAN": {
+        "lines": 2,
+        "first_episode": 4,
+        "first_time": 4.0,
+        "episodes": [
+          4
+        ],
+        "aliases": [
+          "TECHNICIAN"
+        ],
+        "also_credited_as": [],
+        "share": 0.0171,
+        "main": false
+      },
+      "DANNY": {
+        "lines": 2,
+        "first_episode": 6,
+        "first_time": 13.0,
+        "episodes": [
+          6
+        ],
+        "aliases": [
+          "DANNY"
+        ],
+        "also_credited_as": [],
+        "share": 0.0171,
+        "main": false
+      },
+      "OFFICER": {
+        "lines": 1,
+        "first_episode": 5,
+        "first_time": 57.0,
+        "episodes": [
+          5
+        ],
+        "aliases": [
+          "OFFICER"
+        ],
+        "also_credited_as": [],
+        "share": 0.0085,
+        "main": false
+      }
+    },
+    "total_minutes": 12.53
+  },
+  "settings": {
+    "platform": "tiktok",
+    "min_seconds": 20,
+    "max_seconds": 35,
+    "target_seconds": 27,
+    "top_k": 30,
+    "weights": {
+      "hook": 0.3,
+      "cliffhanger": 0.25,
+      "standalone": 0.15,
+      "intensity": 0.12,
+      "pace": 0.05,
+      "duration_fit": 0.05,
+      "trope": 0.05,
+      "episode_end": 0.03,
+      "spoiler_penalty": 0.08
+    },
+    "weights_source": "default",
+    "llm": {
+      "enabled": false,
+      "provider": null,
+      "model": null,
+      "key": "",
+      "base_url": null,
+      "free_tier": false,
+      "reason": "no key or disabled"
+    }
+  },
+  "promos": [
+    {
+      "id": "P01",
+      "segments": [
+        {
+          "episode": 4,
+          "start": 74.0,
+          "end": 96.0,
+          "first_beat": 25,
+          "last_beat": 31
+        }
+      ],
+      "kind": "continuous",
+      "score": 83.79,
+      "heuristic_score": 83.79,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 24.72,
+        "cliffhanger": 21.56,
+        "standalone": 15.0,
+        "intensity": 9.43,
+        "pace": 3.98,
+        "duration_fit": 4.47,
+        "trope": 5.0,
+        "episode_end": 0.0,
+        "spoiler_penalty": -0.37
+      },
+      "hook": {
+        "text": "CHLOE: How dare you show your face here!",
+        "type": "Shocking line",
+        "type_key": "shocking_line",
+        "at": 0.0,
+        "episode": 4,
+        "timestamp": 74.0,
+        "score": 0.824
+      },
+      "cliffhanger": {
+        "text": "(The ballroom doors burst open. Mr. Hale enters with two police officers.)",
+        "type": "Someone/something arrives",
+        "type_key": "arrival",
+        "episode": 4,
+        "timestamp": 92.0,
+        "score": 0.863
+      },
+      "why": "Opens on a shocking line at 0.0s (“How dare you show your face here!”) and cuts on an unexpected arrival; the public-humiliation setup needs no backstory.",
+      "tropes": [
+        "slap_humiliation"
+      ],
+      "flags": [],
+      "rank": 1,
+      "post_order": 4,
+      "post_rationale": "Shocking line 0.0s in; held for a later wave: comes from ep 4 and risks spoiling a twist; switches angle to public-humiliation to test what converts.",
+      "variants": {
+        "standard": {
+          "episode": 4,
+          "start": 74.0,
+          "end": 96.0,
+          "first_beat": 25,
+          "last_beat": 31,
+          "duration": 22.0
+        },
+        "tight": {
+          "episode": 4,
+          "start": 74.0,
+          "end": 96.0,
+          "first_beat": 25,
+          "last_beat": 31,
+          "duration": 22.0
+        },
+        "long": {
+          "episode": 4,
+          "start": 66.0,
+          "end": 96.0,
+          "first_beat": 23,
+          "last_beat": 31,
+          "duration": 30.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 4,
+          "start": 74.0,
+          "end": 77.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "How dare you show your face here!",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.678
+        },
+        {
+          "segment": 1,
+          "episode": 4,
+          "start": 77.0,
+          "end": 80.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Chloe raises her hand and slaps Ava hard across the face.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.8125
+        },
+        {
+          "segment": 1,
+          "episode": 4,
+          "start": 80.0,
+          "end": 82.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "The music stops.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 4,
+          "start": 82.0,
+          "end": 85.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ava slowly turns her head back and slaps Chloe twice as hard.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.8125
+        },
+        {
+          "segment": 1,
+          "episode": 4,
+          "start": 85.0,
+          "end": 89.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "That's for the wine. The next one is for the ring.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 4,
+          "start": 89.0,
+          "end": 92.0,
+          "kind": "dialogue",
+          "speaker": "VIVIAN",
+          "text": "Security! Arrest this woman!",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.6648
+        },
+        {
+          "segment": 1,
+          "episode": 4,
+          "start": 92.0,
+          "end": 96.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "The ballroom doors burst open. Mr. Hale enters with two police officers.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.0
+        }
+      ],
+      "characters": [
+        "AVA",
+        "CHLOE",
+        "VIVIAN"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [],
+        "refined": null
+      },
+      "duration": 22.0,
+      "episodes": [
+        4
+      ]
+    },
+    {
+      "id": "P02",
+      "segments": [
+        {
+          "episode": 8,
+          "start": 63.0,
+          "end": 87.0,
+          "first_beat": 20,
+          "last_beat": 28
+        }
+      ],
+      "kind": "continuous",
+      "score": 83.64,
+      "heuristic_score": 83.64,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 27.0,
+        "cliffhanger": 24.12,
+        "standalone": 15.0,
+        "intensity": 8.48,
+        "pace": 4.69,
+        "duration_fit": 4.8,
+        "trope": 4.5,
+        "episode_end": 3.0,
+        "spoiler_penalty": -7.96
+      },
+      "hook": {
+        "text": "(Chloe enters holding a paternity test envelope.)",
+        "type": "Reveal",
+        "type_key": "reveal",
+        "at": 0.0,
+        "episode": 8,
+        "timestamp": 63.0,
+        "score": 0.9
+      },
+      "cliffhanger": {
+        "text": "(SMASH CUT TO BLACK.)",
+        "type": "Writer-marked cliffhanger",
+        "type_key": "explicit_marker",
+        "episode": 8,
+        "timestamp": 85.0,
+        "score": 0.965
+      },
+      "why": "Opens on a reveal at 0.0s (“Chloe enters holding a paternity test envelope.”) and cuts on the writers' own cliffhanger beat; the secret-pregnancy setup needs no backstory.",
+      "tropes": [
+        "pregnancy_baby"
+      ],
+      "flags": [
+        "spoiler_risk"
+      ],
+      "rank": 2,
+      "post_order": 7,
+      "post_rationale": "Reveal 0.0s in; held for a later wave: comes from ep 8 and risks spoiling a twist; switches angle to secret-pregnancy to test what converts.",
+      "variants": {
+        "standard": {
+          "episode": 8,
+          "start": 63.0,
+          "end": 87.0,
+          "first_beat": 20,
+          "last_beat": 28,
+          "duration": 24.0
+        },
+        "tight": {
+          "episode": 8,
+          "start": 66.0,
+          "end": 87.0,
+          "first_beat": 21,
+          "last_beat": 28,
+          "duration": 21.0
+        },
+        "long": {
+          "episode": 8,
+          "start": 59.0,
+          "end": 87.0,
+          "first_beat": 19,
+          "last_beat": 28,
+          "duration": 28.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 8,
+          "start": 63.0,
+          "end": 66.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Chloe enters holding a paternity test envelope.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.775
+        },
+        {
+          "segment": 1,
+          "episode": 8,
+          "start": 66.0,
+          "end": 70.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "The DNA results. Open it. Prove you're the father.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.859
+        },
+        {
+          "segment": 1,
+          "episode": 8,
+          "start": 70.0,
+          "end": 73.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ethan tears the envelope. Ava appears in the doorway.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.3375
+        },
+        {
+          "segment": 1,
+          "episode": 8,
+          "start": 73.0,
+          "end": 77.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "Before you read that, Ethan, ask her who paid for the test.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 8,
+          "start": 77.0,
+          "end": 79.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Chloe spins around.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 8,
+          "start": 79.0,
+          "end": 80.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "You—",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 8,
+          "start": 80.0,
+          "end": 83.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ethan unfolds the paper. His eyes widen.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 8,
+          "start": 83.0,
+          "end": 85.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "This says the father is—",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 8,
+          "start": 85.0,
+          "end": 87.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "SMASH CUT TO BLACK.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.45
+        }
+      ],
+      "characters": [
+        "AVA",
+        "CHLOE",
+        "ETHAN"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [],
+        "refined": null
+      },
+      "duration": 24.0,
+      "episodes": [
+        8
+      ]
+    },
+    {
+      "id": "P03",
+      "segments": [
+        {
+          "episode": 3,
+          "start": 43.0,
+          "end": 78.0,
+          "first_beat": 14,
+          "last_beat": 23
+        }
+      ],
+      "kind": "continuous",
+      "score": 78.92,
+      "heuristic_score": 78.92,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 29.4,
+        "cliffhanger": 21.25,
+        "standalone": 15.0,
+        "intensity": 5.94,
+        "pace": 3.57,
+        "duration_fit": 3.76,
+        "trope": 0.0,
+        "episode_end": 0.0,
+        "spoiler_penalty": -0.0
+      },
+      "hook": {
+        "text": "(A guard grabs Ava's wrist. She doesn't move.)",
+        "type": "Physical shock",
+        "type_key": "physical",
+        "at": 0.0,
+        "episode": 3,
+        "timestamp": 43.0,
+        "score": 0.98
+      },
+      "cliffhanger": {
+        "text": "(Chloe's face goes pale.)",
+        "type": "Reveal about to land",
+        "type_key": "reveal_pending",
+        "episode": 3,
+        "timestamp": 75.0,
+        "score": 0.85
+      },
+      "why": "Opens on a physical shock at 0.0s (“A guard grabs Ava's wrist. She doesn't move.”) and cuts on a reveal that hasn't landed yet; reads clearly to a first-time viewer.",
+      "tropes": [],
+      "flags": [
+        "visual_hook"
+      ],
+      "rank": 3,
+      "post_order": 1,
+      "post_rationale": "Strongest spoiler-safe hook in the set; physical shock 0.0s in; from ep 3, so new viewers land at the start of the story.",
+      "variants": {
+        "standard": {
+          "episode": 3,
+          "start": 43.0,
+          "end": 78.0,
+          "first_beat": 14,
+          "last_beat": 23,
+          "duration": 35.0
+        },
+        "tight": {
+          "episode": 3,
+          "start": 51.0,
+          "end": 78.0,
+          "first_beat": 16,
+          "last_beat": 23,
+          "duration": 27.0
+        },
+        "long": {
+          "episode": 3,
+          "start": 43.0,
+          "end": 78.0,
+          "first_beat": 14,
+          "last_beat": 23,
+          "duration": 35.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 43.0,
+          "end": 46.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "A guard grabs Ava's wrist. She doesn't move.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.735
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 46.0,
+          "end": 51.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "Take your hand off me. You'll want to keep this job after Friday.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 51.0,
+          "end": 55.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "The guard hesitates. Ethan walks in through the revolving door.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.45
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 55.0,
+          "end": 58.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "What's going on here?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.075
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 58.0,
+          "end": 62.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "The maid stole my ring, and now she's stalking you.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 62.0,
+          "end": 65.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "Did you take it, Ava?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.075
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 65.0,
+          "end": 68.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "Do you believe I did?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.075
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 68.0,
+          "end": 72.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ethan holds her gaze. Long silence.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 72.0,
+          "end": 75.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "...No. I don't.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 75.0,
+          "end": 78.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Chloe's face goes pale.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.3375
+        }
+      ],
+      "characters": [
+        "AVA",
+        "CHLOE",
+        "ETHAN"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [],
+        "refined": null
+      },
+      "duration": 35.0,
+      "episodes": [
+        3
+      ]
+    },
+    {
+      "id": "P04",
+      "segments": [
+        {
+          "episode": 1,
+          "start": 50.0,
+          "end": 60.0,
+          "first_beat": 15,
+          "last_beat": 17
+        },
+        {
+          "episode": 3,
+          "start": 87.0,
+          "end": 100.0,
+          "first_beat": 26,
+          "last_beat": 29
+        }
+      ],
+      "kind": "montage_cross",
+      "score": 77.79,
+      "heuristic_score": 77.79,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 27.6,
+        "cliffhanger": 24.21,
+        "standalone": 13.8,
+        "intensity": 7.87,
+        "pace": 3.17,
+        "duration_fit": 4.66,
+        "trope": 2.12,
+        "episode_end": 3.0,
+        "spoiler_penalty": -0.0,
+        "montage_penalty": -8.64
+      },
+      "hook": {
+        "text": "CHLOE: Regret? You're nothing. A nobody who scrubs our toilets.",
+        "type": "Shocking line",
+        "type_key": "shocking_line",
+        "at": 0.0,
+        "episode": 1,
+        "timestamp": 50.0,
+        "score": 0.92
+      },
+      "cliffhanger": {
+        "text": "VIVIAN: Who are you really?",
+        "type": "Reveal about to land",
+        "type_key": "reveal_pending",
+        "episode": 3,
+        "timestamp": 98.0,
+        "score": 0.969
+      },
+      "why": "Opens on a shocking line at 0.0s (“Regret? You're nothing. A nobody who scrubs…”) and cuts on a reveal that hasn't landed yet; the revenge setup needs no backstory — stitches 2 escalating moments across episodes 1, 3.",
+      "tropes": [
+        "revenge"
+      ],
+      "flags": [
+        "jump_cuts"
+      ],
+      "rank": 4,
+      "post_order": 2,
+      "post_rationale": "Shocking line 0.0s in; from ep 1, so new viewers land at the start of the story; switches angle to revenge to test what converts.",
+      "variants": {
+        "standard": {
+          "episode": 1,
+          "start": 50.0,
+          "end": 60.0,
+          "first_beat": 15,
+          "last_beat": 17,
+          "duration": 10.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 50.0,
+          "end": 55.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "Regret? You're nothing. A nobody who scrubs our toilets.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.79
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 55.0,
+          "end": 55.0,
+          "kind": "scene",
+          "speaker": null,
+          "text": "INT. SERVANTS' QUARTERS – NIGHT",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 55.0,
+          "end": 60.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ava washes the wine from her face in a cracked mirror.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 2,
+          "episode": 3,
+          "start": 87.0,
+          "end": 90.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Chloe grabs Vivian's arm and leans close.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.7125
+        },
+        {
+          "segment": 2,
+          "episode": 3,
+          "start": 90.0,
+          "end": 95.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "If he sees that footage, we're both finished.",
+          "manner": "whispering",
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 2,
+          "episode": 3,
+          "start": 95.0,
+          "end": 98.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Vivian looks at Ava as if seeing her for the first time.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 2,
+          "episode": 3,
+          "start": 98.0,
+          "end": 100.0,
+          "kind": "dialogue",
+          "speaker": "VIVIAN",
+          "text": "Who are you really?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.075
+        }
+      ],
+      "characters": [
+        "CHLOE",
+        "VIVIAN"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [
+          "1 jump cut(s) between moments"
+        ],
+        "refined": null
+      },
+      "duration": 23.0,
+      "episodes": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "P05",
+      "segments": [
+        {
+          "episode": 2,
+          "start": 67.0,
+          "end": 71.0,
+          "first_beat": 21,
+          "last_beat": 21
+        },
+        {
+          "episode": 2,
+          "start": 43.0,
+          "end": 67.0,
+          "first_beat": 14,
+          "last_beat": 20
+        }
+      ],
+      "kind": "montage_episode",
+      "score": 74.31,
+      "heuristic_score": 74.31,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 29.4,
+        "cliffhanger": 21.42,
+        "standalone": 12.6,
+        "intensity": 8.53,
+        "pace": 3.39,
+        "duration_fit": 4.98,
+        "trope": 2.25,
+        "episode_end": 0.0,
+        "spoiler_penalty": -0.0,
+        "montage_penalty": -8.26
+      },
+      "hook": {
+        "text": "(Two guards grab Ava by the arms and drag her toward the door.)",
+        "type": "Physical shock",
+        "type_key": "physical",
+        "at": 0.0,
+        "episode": 2,
+        "timestamp": 67.0,
+        "score": 0.98
+      },
+      "cliffhanger": {
+        "text": "VIVIAN: No police. Scandal is bad for the company. Just throw her out.",
+        "type": "Someone/something arrives",
+        "type_key": "arrival",
+        "episode": 2,
+        "timestamp": 62.0,
+        "score": 0.857
+      },
+      "why": "Opens on a physical shock at 0.0s (“Two guards grab Ava by the arms and drag her…”) and cuts on an unexpected arrival; the betrayal setup needs no backstory — flash-forward cold open, then rewinds to the build-up.",
+      "tropes": [
+        "betrayal_cheating",
+        "rich_powerful"
+      ],
+      "flags": [
+        "jump_cuts",
+        "visual_hook"
+      ],
+      "rank": 5,
+      "post_order": 3,
+      "post_rationale": "Physical shock 0.0s in; from ep 2, so new viewers land at the start of the story; switches angle to betrayal to test what converts.",
+      "variants": {
+        "standard": {
+          "episode": 2,
+          "start": 67.0,
+          "end": 71.0,
+          "first_beat": 21,
+          "last_beat": 21,
+          "duration": 4.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 2,
+          "start": 67.0,
+          "end": 71.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Two guards grab Ava by the arms and drag her toward the door.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.735
+        },
+        {
+          "segment": 2,
+          "episode": 2,
+          "start": 43.0,
+          "end": 45.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "The staff go silent.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 2,
+          "episode": 2,
+          "start": 45.0,
+          "end": 50.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "Search her. The new girl. She was in Ethan's study last night.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 2,
+          "episode": 2,
+          "start": 50.0,
+          "end": 54.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "A guard empties Ava's apron pocket. A diamond ring falls onto the counter.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.72
+        },
+        {
+          "segment": 2,
+          "episode": 2,
+          "start": 54.0,
+          "end": 56.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Gasps around the kitchen.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.3375
+        },
+        {
+          "segment": 2,
+          "episode": 2,
+          "start": 56.0,
+          "end": 59.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "I've never seen that ring before.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 2,
+          "episode": 2,
+          "start": 59.0,
+          "end": 62.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "Liar! Call the police.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.7912
+        },
+        {
+          "segment": 2,
+          "episode": 2,
+          "start": 62.0,
+          "end": 67.0,
+          "kind": "dialogue",
+          "speaker": "VIVIAN",
+          "text": "No police. Scandal is bad for the company. Just throw her out.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.1
+        }
+      ],
+      "characters": [
+        "AVA",
+        "CHLOE",
+        "VIVIAN"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [
+          "1 line(s) refer to earlier events",
+          "1 jump cut(s) between moments"
+        ],
+        "refined": null
+      },
+      "duration": 28.0,
+      "episodes": [
+        2
+      ]
+    },
+    {
+      "id": "P06",
+      "segments": [
+        {
+          "episode": 6,
+          "start": 0.0,
+          "end": 28.0,
+          "first_beat": 1,
+          "last_beat": 9
+        }
+      ],
+      "kind": "continuous",
+      "score": 73.12,
+      "heuristic_score": 73.12,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 28.5,
+        "cliffhanger": 17.5,
+        "standalone": 15.0,
+        "intensity": 7.21,
+        "pace": 4.02,
+        "duration_fit": 4.98,
+        "trope": 0.0,
+        "episode_end": 0.0,
+        "spoiler_penalty": -4.09
+      },
+      "hook": {
+        "text": "(A hooded figure lunges from the balcony and grabs Ava by the throat.)",
+        "type": "Physical shock",
+        "type_key": "physical",
+        "at": 0.0,
+        "episode": 6,
+        "timestamp": 0.0,
+        "score": 0.95
+      },
+      "cliffhanger": {
+        "text": "AVA: Her father... set the fire?",
+        "type": "Unanswered question",
+        "type_key": "open_question",
+        "episode": 6,
+        "timestamp": 25.0,
+        "score": 0.7
+      },
+      "why": "Opens on a physical shock at 0.0s (“A hooded figure lunges from the balcony and…”) and cuts on a question nobody answers; reads clearly to a first-time viewer.",
+      "tropes": [],
+      "flags": [
+        "spoiler_risk",
+        "visual_hook"
+      ],
+      "rank": 6,
+      "post_order": 8,
+      "post_rationale": "Physical shock 0.0s in; held for a later wave: comes from ep 6 and risks spoiling a twist.",
+      "variants": {
+        "standard": {
+          "episode": 6,
+          "start": 0.0,
+          "end": 28.0,
+          "first_beat": 1,
+          "last_beat": 9,
+          "duration": 28.0
+        },
+        "tight": {
+          "episode": 6,
+          "start": 6.0,
+          "end": 28.0,
+          "first_beat": 3,
+          "last_beat": 9,
+          "duration": 22.0
+        },
+        "long": {
+          "episode": 6,
+          "start": 0.0,
+          "end": 28.0,
+          "first_beat": 1,
+          "last_beat": 9,
+          "duration": 28.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 0.0,
+          "end": 3.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "A hooded figure lunges from the balcony and grabs Ava by the throat.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.7125
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 3.0,
+          "end": 6.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ava screams. A lamp crashes to the floor.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.5175
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 6.0,
+          "end": 9.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ethan bursts in and tackles the intruder.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.45
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 9.0,
+          "end": 13.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "The hood falls back. It's Marcus's nephew, DANNY.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 13.0,
+          "end": 17.0,
+          "kind": "dialogue",
+          "speaker": "DANNY",
+          "text": "I'm sorry! She paid me! Chloe paid me!",
+          "manner": "sobbing",
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.4282
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 17.0,
+          "end": 19.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "To do what?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.075
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 19.0,
+          "end": 23.0,
+          "kind": "dialogue",
+          "speaker": "DANNY",
+          "text": "To finish what her father started.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 23.0,
+          "end": 25.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ava goes pale.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.3375
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 25.0,
+          "end": 28.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "Her father... set the fire?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.075
+        }
+      ],
+      "characters": [
+        "AVA",
+        "DANNY",
+        "ETHAN"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [],
+        "refined": null
+      },
+      "duration": 28.0,
+      "episodes": [
+        6
+      ]
+    },
+    {
+      "id": "P07",
+      "segments": [
+        {
+          "episode": 2,
+          "start": 67.0,
+          "end": 99.462,
+          "first_beat": 21,
+          "last_beat": 29
+        }
+      ],
+      "kind": "continuous",
+      "score": 70.51,
+      "heuristic_score": 70.51,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 29.4,
+        "cliffhanger": 7.5,
+        "standalone": 13.8,
+        "intensity": 6.85,
+        "pace": 3.08,
+        "duration_fit": 4.38,
+        "trope": 2.5,
+        "episode_end": 3.0,
+        "spoiler_penalty": -0.0
+      },
+      "hook": {
+        "text": "(Two guards grab Ava by the arms and drag her toward the door.)",
+        "type": "Physical shock",
+        "type_key": "physical",
+        "at": 0.0,
+        "episode": 2,
+        "timestamp": 67.0,
+        "score": 0.98
+      },
+      "cliffhanger": {
+        "text": "(Ava looks back at the mansion. Her eyes harden.)",
+        "type": "Episode-ending cliffhanger",
+        "type_key": "episode_end",
+        "episode": 2,
+        "timestamp": 96.0,
+        "score": 0.3
+      },
+      "why": "Opens on a physical shock at 0.0s (“Two guards grab Ava by the arms and drag her…”) and cuts on the episode's own cliffhanger; the public-humiliation setup needs no backstory.",
+      "tropes": [
+        "slap_humiliation",
+        "rich_powerful"
+      ],
+      "flags": [
+        "soft_ending",
+        "visual_hook"
+      ],
+      "rank": 7,
+      "post_order": 6,
+      "post_rationale": "Physical shock 0.0s in; from ep 2, so new viewers land at the start of the story; switches angle to public-humiliation to test what converts.",
+      "variants": {
+        "standard": {
+          "episode": 2,
+          "start": 67.0,
+          "end": 99.462,
+          "first_beat": 21,
+          "last_beat": 29,
+          "duration": 32.46
+        },
+        "tight": {
+          "episode": 2,
+          "start": 67.0,
+          "end": 99.462,
+          "first_beat": 21,
+          "last_beat": 29,
+          "duration": 32.46
+        },
+        "long": {
+          "episode": 2,
+          "start": 67.0,
+          "end": 99.462,
+          "first_beat": 21,
+          "last_beat": 29,
+          "duration": 32.46
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 2,
+          "start": 67.0,
+          "end": 71.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Two guards grab Ava by the arms and drag her toward the door.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.735
+        },
+        {
+          "segment": 1,
+          "episode": 2,
+          "start": 71.0,
+          "end": 75.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "Check the cameras! The study has cameras!",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.3
+        },
+        {
+          "segment": 1,
+          "episode": 2,
+          "start": 75.0,
+          "end": 78.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Chloe's smile flickers for half a second.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 2,
+          "start": 78.0,
+          "end": 82.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "The cameras were broken last week. What a shame.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.1
+        },
+        {
+          "segment": 1,
+          "episode": 2,
+          "start": 82.0,
+          "end": 82.0,
+          "kind": "scene",
+          "speaker": null,
+          "text": "EXT. CROSS MANSION GATE – DAY",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 2,
+          "start": 82.0,
+          "end": 87.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ava is shoved through the iron gate onto the wet pavement. Rain begins to fall.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.7125
+        },
+        {
+          "segment": 1,
+          "episode": 2,
+          "start": 87.0,
+          "end": 91.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "A black Rolls-Royce pulls up beside her. The rear window rolls down.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 2,
+          "start": 91.0,
+          "end": 96.0,
+          "kind": "dialogue",
+          "speaker": "MR. HALE",
+          "text": "Miss Lockwood? Your grandfather's lawyer. We need to talk—now.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 2,
+          "start": 96.0,
+          "end": 99.46,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ava looks back at the mansion. Her eyes harden.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.1
+        }
+      ],
+      "characters": [
+        "AVA",
+        "CHLOE",
+        "MR. HALE"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [
+          "1 line(s) refer to earlier events"
+        ],
+        "refined": null
+      },
+      "duration": 32.46,
+      "episodes": [
+        2
+      ]
+    },
+    {
+      "id": "P08",
+      "segments": [
+        {
+          "episode": 8,
+          "start": 66.0,
+          "end": 70.0,
+          "first_beat": 21,
+          "last_beat": 21
+        },
+        {
+          "episode": 8,
+          "start": 42.0,
+          "end": 66.0,
+          "first_beat": 13,
+          "last_beat": 20
+        }
+      ],
+      "kind": "montage_episode",
+      "score": 70.32,
+      "heuristic_score": 70.32,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 29.71,
+        "cliffhanger": 21.54,
+        "standalone": 13.8,
+        "intensity": 8.18,
+        "pace": 3.39,
+        "duration_fit": 4.98,
+        "trope": 4.5,
+        "episode_end": 0.0,
+        "spoiler_penalty": -7.96,
+        "montage_penalty": -7.81
+      },
+      "hook": {
+        "text": "CHLOE: The DNA results. Open it. Prove you're the father.",
+        "type": "Reveal",
+        "type_key": "reveal",
+        "at": 0.0,
+        "episode": 8,
+        "timestamp": 66.0,
+        "score": 0.99
+      },
+      "cliffhanger": {
+        "text": "(Chloe enters holding a paternity test envelope.)",
+        "type": "Someone/something arrives",
+        "type_key": "arrival",
+        "episode": 8,
+        "timestamp": 63.0,
+        "score": 0.861
+      },
+      "why": "Opens on a reveal at 0.0s (“The DNA results. Open it. Prove you're the…”) and cuts on an unexpected arrival; the secret-pregnancy setup needs no backstory — flash-forward cold open, then rewinds to the build-up.",
+      "tropes": [
+        "pregnancy_baby"
+      ],
+      "flags": [
+        "spoiler_risk",
+        "jump_cuts"
+      ],
+      "rank": 8,
+      "post_order": 12,
+      "post_rationale": "Reveal 0.0s in; held for a later wave: comes from ep 8 and risks spoiling a twist; switches angle to secret-pregnancy to test what converts.",
+      "variants": {
+        "standard": {
+          "episode": 8,
+          "start": 66.0,
+          "end": 70.0,
+          "first_beat": 21,
+          "last_beat": 21,
+          "duration": 4.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 8,
+          "start": 66.0,
+          "end": 70.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "The DNA results. Open it. Prove you're the father.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.859
+        },
+        {
+          "segment": 2,
+          "episode": 8,
+          "start": 42.0,
+          "end": 44.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "What about it?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.075
+        },
+        {
+          "segment": 2,
+          "episode": 8,
+          "start": 44.0,
+          "end": 49.0,
+          "kind": "dialogue",
+          "speaker": "MARCUS",
+          "text": "It closed two years ago. Mr. Vance owned it.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 2,
+          "episode": 8,
+          "start": 49.0,
+          "end": 51.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ava turns slowly.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 2,
+          "episode": 8,
+          "start": 51.0,
+          "end": 54.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "Then the baby is a lie.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.1
+        },
+        {
+          "segment": 2,
+          "episode": 8,
+          "start": 54.0,
+          "end": 59.0,
+          "kind": "dialogue",
+          "speaker": "MARCUS",
+          "text": "Or the baby is real... and the father isn't Ethan.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.1
+        },
+        {
+          "segment": 2,
+          "episode": 8,
+          "start": 59.0,
+          "end": 59.0,
+          "kind": "scene",
+          "speaker": null,
+          "text": "INT. CROSS MANSION NURSERY – NIGHT",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 2,
+          "episode": 8,
+          "start": 59.0,
+          "end": 63.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ethan stands among paint cans, staring at an empty crib.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 2,
+          "episode": 8,
+          "start": 63.0,
+          "end": 66.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Chloe enters holding a paternity test envelope.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.775
+        }
+      ],
+      "characters": [
+        "AVA",
+        "CHLOE",
+        "MARCUS"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [
+          "1 jump cut(s) between moments"
+        ],
+        "refined": null
+      },
+      "duration": 28.0,
+      "episodes": [
+        8
+      ]
+    },
+    {
+      "id": "P09",
+      "segments": [
+        {
+          "episode": 5,
+          "start": 15.0,
+          "end": 44.0,
+          "first_beat": 5,
+          "last_beat": 13
+        }
+      ],
+      "kind": "continuous",
+      "score": 68.42,
+      "heuristic_score": 68.42,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 24.0,
+        "cliffhanger": 17.5,
+        "standalone": 15.0,
+        "intensity": 4.7,
+        "pace": 3.45,
+        "duration_fit": 4.91,
+        "trope": 0.0,
+        "episode_end": 0.0,
+        "spoiler_penalty": -1.14
+      },
+      "hook": {
+        "text": "AVA: I didn't die, Chloe. I was hidden. From people like you.",
+        "type": "Shocking line",
+        "type_key": "shocking_line",
+        "at": 0.0,
+        "episode": 5,
+        "timestamp": 15.0,
+        "score": 0.8
+      },
+      "cliffhanger": {
+        "text": "ETHAN: And?",
+        "type": "Unanswered question",
+        "type_key": "open_question",
+        "episode": 5,
+        "timestamp": 42.0,
+        "score": 0.7
+      },
+      "why": "Opens on a shocking line at 0.0s (“I didn't die, Chloe. I was hidden. From people…”) and cuts on a question nobody answers; reads clearly to a first-time viewer.",
+      "tropes": [],
+      "flags": [],
+      "rank": 9,
+      "post_order": 9,
+      "post_rationale": "Shocking line 0.0s in; held for a later wave: comes from ep 5 and risks spoiling a twist.",
+      "variants": {
+        "standard": {
+          "episode": 5,
+          "start": 15.0,
+          "end": 44.0,
+          "first_beat": 5,
+          "last_beat": 13,
+          "duration": 29.0
+        },
+        "tight": {
+          "episode": 5,
+          "start": 15.0,
+          "end": 44.0,
+          "first_beat": 5,
+          "last_beat": 13,
+          "duration": 29.0
+        },
+        "long": {
+          "episode": 5,
+          "start": 10.0,
+          "end": 44.0,
+          "first_beat": 4,
+          "last_beat": 13,
+          "duration": 34.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 15.0,
+          "end": 20.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "I didn't die, Chloe. I was hidden. From people like you.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.6
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 20.0,
+          "end": 23.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ethan stares at Ava, stunned.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.3375
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 23.0,
+          "end": 26.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "You lied to me this whole time?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 26.0,
+          "end": 29.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "I watched. There's a difference.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 29.0,
+          "end": 29.0,
+          "kind": "scene",
+          "speaker": null,
+          "text": "EXT. CROSS MANSION GARDEN – NIGHT",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 29.0,
+          "end": 33.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ethan finds Ava alone by the lily pond.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 33.0,
+          "end": 38.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "Everything my family has is yours. Why didn't you take it on day one?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 38.0,
+          "end": 42.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "Because I wanted to know who would be kind to a maid.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 42.0,
+          "end": 44.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "And?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.075
+        }
+      ],
+      "characters": [
+        "AVA",
+        "ETHAN"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [],
+        "refined": null
+      },
+      "duration": 29.0,
+      "episodes": [
+        5
+      ]
+    },
+    {
+      "id": "P10",
+      "segments": [
+        {
+          "episode": 5,
+          "start": 50.0,
+          "end": 81.0,
+          "first_beat": 16,
+          "last_beat": 26
+        }
+      ],
+      "kind": "continuous",
+      "score": 68.2,
+      "heuristic_score": 68.2,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 21.0,
+        "cliffhanger": 21.25,
+        "standalone": 14.25,
+        "intensity": 5.65,
+        "pace": 3.63,
+        "duration_fit": 4.66,
+        "trope": 0.0,
+        "episode_end": 0.0,
+        "spoiler_penalty": -2.23
+      },
+      "hook": {
+        "text": "(Ethan kisses her.)",
+        "type": "Romantic moment",
+        "type_key": "romance",
+        "at": 0.0,
+        "episode": 5,
+        "timestamp": 50.0,
+        "score": 0.7
+      },
+      "cliffhanger": {
+        "text": "(She opens the envelope. Inside, a photo of the burning Lockwood house.)",
+        "type": "Reveal about to land",
+        "type_key": "reveal_pending",
+        "episode": 5,
+        "timestamp": 77.0,
+        "score": 0.85
+      },
+      "why": "Opens on a romantic moment at 0.0s (“Ethan kisses her.”) and cuts on a reveal that hasn't landed yet; reads clearly to a first-time viewer.",
+      "tropes": [],
+      "flags": [],
+      "rank": 10,
+      "post_order": 11,
+      "post_rationale": "Held for a later wave: comes from ep 5 and risks spoiling a twist.",
+      "variants": {
+        "standard": {
+          "episode": 5,
+          "start": 50.0,
+          "end": 81.0,
+          "first_beat": 16,
+          "last_beat": 26,
+          "duration": 31.0
+        },
+        "tight": {
+          "episode": 5,
+          "start": 50.0,
+          "end": 81.0,
+          "first_beat": 16,
+          "last_beat": 26,
+          "duration": 31.0
+        },
+        "long": {
+          "episode": 5,
+          "start": 47.0,
+          "end": 81.0,
+          "first_beat": 15,
+          "last_beat": 26,
+          "duration": 34.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 50.0,
+          "end": 53.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ethan kisses her.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.525
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 53.0,
+          "end": 53.0,
+          "kind": "scene",
+          "speaker": null,
+          "text": "INT. POLICE STATION – NIGHT",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 53.0,
+          "end": 57.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Chloe sits handcuffed. An officer slides a file across the table.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 57.0,
+          "end": 62.0,
+          "kind": "dialogue",
+          "speaker": "OFFICER",
+          "text": "Fraud, theft, falsifying evidence. You're looking at five years.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 62.0,
+          "end": 65.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "Get me my phone. I get one call.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 65.0,
+          "end": 67.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "She dials. Someone answers.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 67.0,
+          "end": 70.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "It's me. Plan B. Tonight.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 70.0,
+          "end": 70.0,
+          "kind": "scene",
+          "speaker": null,
+          "text": "INT. CROSS MANSION – AVA'S NEW SUITE – NIGHT",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 70.0,
+          "end": 74.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ava unpins her hair, smiling for the first time.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 74.0,
+          "end": 77.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "A small envelope lies on her pillow. No name.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 77.0,
+          "end": 81.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "She opens the envelope. Inside, a photo of the burning Lockwood house.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.7125
+        }
+      ],
+      "characters": [
+        "CHLOE",
+        "OFFICER"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [
+          "crosses 3 scenes"
+        ],
+        "refined": null
+      },
+      "duration": 31.0,
+      "episodes": [
+        5
+      ]
+    },
+    {
+      "id": "P11",
+      "segments": [
+        {
+          "episode": 3,
+          "start": 29.0,
+          "end": 55.0,
+          "first_beat": 10,
+          "last_beat": 16
+        }
+      ],
+      "kind": "continuous",
+      "score": 66.41,
+      "heuristic_score": 66.41,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 18.0,
+        "cliffhanger": 18.75,
+        "standalone": 13.5,
+        "intensity": 7.81,
+        "pace": 3.37,
+        "duration_fit": 4.98,
+        "trope": 0.0,
+        "episode_end": 0.0,
+        "spoiler_penalty": -0.0
+      },
+      "hook": {
+        "text": "RECEPTIONIST: Security, we have a cleaner who thinks she's an executive.",
+        "type": "Confrontation",
+        "type_key": "confrontation",
+        "at": 0.0,
+        "episode": 3,
+        "timestamp": 29.0,
+        "score": 0.6
+      },
+      "cliffhanger": {
+        "text": "(The guard hesitates. Ethan walks in through the revolving door.)",
+        "type": "Someone/something arrives",
+        "type_key": "arrival",
+        "episode": 3,
+        "timestamp": 51.0,
+        "score": 0.75
+      },
+      "why": "Opens on a confrontation at 0.0s (“Security, we have a cleaner who thinks she's…”) and cuts on an unexpected arrival; reads clearly to a first-time viewer.",
+      "tropes": [],
+      "flags": [],
+      "rank": 11,
+      "post_order": 5,
+      "post_rationale": "From ep 3, so new viewers land at the start of the story.",
+      "variants": {
+        "standard": {
+          "episode": 3,
+          "start": 29.0,
+          "end": 55.0,
+          "first_beat": 10,
+          "last_beat": 16,
+          "duration": 26.0
+        },
+        "tight": {
+          "episode": 3,
+          "start": 29.0,
+          "end": 55.0,
+          "first_beat": 10,
+          "last_beat": 16,
+          "duration": 26.0
+        },
+        "long": {
+          "episode": 3,
+          "start": 20.0,
+          "end": 55.0,
+          "first_beat": 7,
+          "last_beat": 16,
+          "duration": 35.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 29.0,
+          "end": 33.0,
+          "kind": "dialogue",
+          "speaker": "RECEPTIONIST",
+          "text": "Security, we have a cleaner who thinks she's an executive.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.45
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 33.0,
+          "end": 36.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Chloe steps out of the elevator with Vivian.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 36.0,
+          "end": 40.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "Oh, look. The thief came back for more.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.6
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 40.0,
+          "end": 43.0,
+          "kind": "dialogue",
+          "speaker": "VIVIAN",
+          "text": "Get her out before the investors see her.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 43.0,
+          "end": 46.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "A guard grabs Ava's wrist. She doesn't move.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.735
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 46.0,
+          "end": 51.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "Take your hand off me. You'll want to keep this job after Friday.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 3,
+          "start": 51.0,
+          "end": 55.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "The guard hesitates. Ethan walks in through the revolving door.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.45
+        }
+      ],
+      "characters": [
+        "AVA",
+        "CHLOE",
+        "RECEPTIONIST",
+        "VIVIAN"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [
+          "5 speaking characters — hard to follow in 30 s"
+        ],
+        "refined": "trimmed 3.0s of lead-in so the hook lands at 0s"
+      },
+      "duration": 26.0,
+      "episodes": [
+        3
+      ]
+    },
+    {
+      "id": "P12",
+      "segments": [
+        {
+          "episode": 7,
+          "start": 28.0,
+          "end": 51.0,
+          "first_beat": 9,
+          "last_beat": 15
+        }
+      ],
+      "kind": "continuous",
+      "score": 61.45,
+      "heuristic_score": 61.45,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 18.0,
+        "cliffhanger": 17.5,
+        "standalone": 15.0,
+        "intensity": 3.66,
+        "pace": 3.8,
+        "duration_fit": 4.66,
+        "trope": 1.88,
+        "episode_end": 0.0,
+        "spoiler_penalty": -3.05
+      },
+      "hook": {
+        "text": "ETHAN: My father died in a car crash. That's what they told me.",
+        "type": "Confrontation",
+        "type_key": "confrontation",
+        "at": 0.0,
+        "episode": 7,
+        "timestamp": 28.0,
+        "score": 0.6
+      },
+      "cliffhanger": {
+        "text": "ETHAN: What truth?",
+        "type": "Unanswered question",
+        "type_key": "open_question",
+        "episode": 7,
+        "timestamp": 49.0,
+        "score": 0.7
+      },
+      "why": "Opens on a confrontation at 0.0s (“My father died in a car crash. That's what…”) and cuts on a question nobody answers; the billionaire/heir setup needs no backstory.",
+      "tropes": [
+        "rich_powerful"
+      ],
+      "flags": [],
+      "rank": 12,
+      "post_order": 14,
+      "post_rationale": "Held for a later wave: comes from ep 7 and risks spoiling a twist; switches angle to billionaire/heir to test what converts.",
+      "variants": {
+        "standard": {
+          "episode": 7,
+          "start": 28.0,
+          "end": 51.0,
+          "first_beat": 9,
+          "last_beat": 15,
+          "duration": 23.0
+        },
+        "tight": {
+          "episode": 7,
+          "start": 28.0,
+          "end": 51.0,
+          "first_beat": 9,
+          "last_beat": 15,
+          "duration": 23.0
+        },
+        "long": {
+          "episode": 7,
+          "start": 24.0,
+          "end": 51.0,
+          "first_beat": 8,
+          "last_beat": 15,
+          "duration": 27.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 7,
+          "start": 28.0,
+          "end": 32.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "My father died in a car crash. That's what they told me.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.45
+        },
+        {
+          "segment": 1,
+          "episode": 7,
+          "start": 32.0,
+          "end": 36.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "Maybe that's what Vance wants you to believe.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 7,
+          "start": 36.0,
+          "end": 39.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "Or maybe it's true and he's bluffing.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 7,
+          "start": 39.0,
+          "end": 42.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ethan's phone buzzes. An unknown number.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 7,
+          "start": 42.0,
+          "end": 44.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "Hello?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.075
+        },
+        {
+          "segment": 1,
+          "episode": 7,
+          "start": 44.0,
+          "end": 49.0,
+          "kind": "dialogue",
+          "speaker": "VOICE",
+          "text": "Sign the shares over to Vance, or your mother learns the truth.",
+          "manner": "voice-over",
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.1
+        },
+        {
+          "segment": 1,
+          "episode": 7,
+          "start": 49.0,
+          "end": 51.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "What truth?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.075
+        }
+      ],
+      "characters": [
+        "AVA",
+        "ETHAN",
+        "VOICE"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [],
+        "refined": null
+      },
+      "duration": 23.0,
+      "episodes": [
+        7
+      ]
+    },
+    {
+      "id": "P13",
+      "segments": [
+        {
+          "episode": 6,
+          "start": 23.0,
+          "end": 52.0,
+          "first_beat": 8,
+          "last_beat": 16
+        }
+      ],
+      "kind": "continuous",
+      "score": 54.49,
+      "heuristic_score": 54.49,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 13.5,
+        "cliffhanger": 17.5,
+        "standalone": 12.75,
+        "intensity": 5.63,
+        "pace": 2.41,
+        "duration_fit": 4.91,
+        "trope": 1.88,
+        "episode_end": 0.0,
+        "spoiler_penalty": -4.09
+      },
+      "hook": {
+        "text": "(Ava goes pale.)",
+        "type": "Emotional peak",
+        "type_key": "emotional_peak",
+        "at": 0.0,
+        "episode": 6,
+        "timestamp": 23.0,
+        "score": 0.45
+      },
+      "cliffhanger": {
+        "text": "AVA: And you said nothing?",
+        "type": "Unanswered question",
+        "type_key": "open_question",
+        "episode": 6,
+        "timestamp": 49.0,
+        "score": 0.7
+      },
+      "why": "Builds quickly from a quiet open and cuts on a question nobody answers; the billionaire/heir setup needs no backstory.",
+      "tropes": [
+        "rich_powerful"
+      ],
+      "flags": [
+        "spoiler_risk"
+      ],
+      "rank": 13,
+      "post_order": 17,
+      "post_rationale": "Held for a later wave: comes from ep 6 and risks spoiling a twist.",
+      "variants": {
+        "standard": {
+          "episode": 6,
+          "start": 23.0,
+          "end": 52.0,
+          "first_beat": 8,
+          "last_beat": 16,
+          "duration": 29.0
+        },
+        "tight": {
+          "episode": 6,
+          "start": 32.0,
+          "end": 52.0,
+          "first_beat": 12,
+          "last_beat": 16,
+          "duration": 20.0
+        },
+        "long": {
+          "episode": 6,
+          "start": 17.0,
+          "end": 52.0,
+          "first_beat": 6,
+          "last_beat": 16,
+          "duration": 35.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 23.0,
+          "end": 25.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ava goes pale.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.3375
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 25.0,
+          "end": 28.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "Her father... set the fire?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.075
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 28.0,
+          "end": 28.0,
+          "kind": "scene",
+          "speaker": null,
+          "text": "INT. CROSS MANSION LIBRARY – LATER",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 28.0,
+          "end": 32.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Marcus pours tea with shaking hands.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 32.0,
+          "end": 36.0,
+          "kind": "dialogue",
+          "speaker": "MARCUS",
+          "text": "Miss Ava, I should have told you years ago.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 36.0,
+          "end": 38.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "Told me what?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.075
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 38.0,
+          "end": 45.0,
+          "kind": "dialogue",
+          "speaker": "MARCUS",
+          "text": "The night of the fire, Mr. Vance came to see your grandfather. They argued about the company.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.1
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 45.0,
+          "end": 49.0,
+          "kind": "dialogue",
+          "speaker": "MARCUS",
+          "text": "An hour later, the east wing was burning.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.7125
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 49.0,
+          "end": 52.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "And you said nothing?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.075
+        }
+      ],
+      "characters": [
+        "AVA",
+        "MARCUS"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [
+          "opens on an unexplained pronoun: “Her father... set the fire?”"
+        ],
+        "refined": null
+      },
+      "duration": 29.0,
+      "episodes": [
+        6
+      ]
+    },
+    {
+      "id": "P14",
+      "segments": [
+        {
+          "episode": 5,
+          "start": 0.0,
+          "end": 26.0,
+          "first_beat": 1,
+          "last_beat": 7
+        }
+      ],
+      "kind": "continuous",
+      "score": 54.18,
+      "heuristic_score": 54.18,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 6.84,
+        "cliffhanger": 17.5,
+        "standalone": 14.7,
+        "intensity": 5.94,
+        "pace": 3.37,
+        "duration_fit": 4.98,
+        "trope": 2.0,
+        "episode_end": 0.0,
+        "spoiler_penalty": -1.14
+      },
+      "hook": {
+        "text": "MR. HALE: She is Ava Lockwood. Heir to Arthur Lockwood's sixty percent.",
+        "type": "Status mention",
+        "type_key": "status_mention",
+        "at": 3.0,
+        "episode": 5,
+        "timestamp": 3.0,
+        "score": 0.228
+      },
+      "cliffhanger": {
+        "text": "ETHAN: You lied to me this whole time?",
+        "type": "Unanswered question",
+        "type_key": "open_question",
+        "episode": 5,
+        "timestamp": 23.0,
+        "score": 0.7
+      },
+      "why": "Builds quickly from a quiet open and cuts on a question nobody answers; the billionaire/heir setup needs no backstory.",
+      "tropes": [
+        "rich_powerful",
+        "royalty_status"
+      ],
+      "flags": [
+        "weak_hook"
+      ],
+      "rank": 14,
+      "post_order": 16,
+      "post_rationale": "Held for a later wave: comes from ep 5 and risks spoiling a twist; switches angle to billionaire/heir to test what converts.",
+      "variants": {
+        "standard": {
+          "episode": 5,
+          "start": 0.0,
+          "end": 26.0,
+          "first_beat": 1,
+          "last_beat": 7,
+          "duration": 26.0
+        },
+        "tight": {
+          "episode": 5,
+          "start": 3.0,
+          "end": 26.0,
+          "first_beat": 2,
+          "last_beat": 7,
+          "duration": 23.0
+        },
+        "long": {
+          "episode": 5,
+          "start": 0.0,
+          "end": 26.0,
+          "first_beat": 1,
+          "last_beat": 7,
+          "duration": 26.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 0.0,
+          "end": 3.0,
+          "kind": "dialogue",
+          "speaker": "VIVIAN",
+          "text": "Chairwoman? She's a maid!",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.216
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 3.0,
+          "end": 8.0,
+          "kind": "dialogue",
+          "speaker": "MR. HALE",
+          "text": "She is Ava Lockwood. Heir to Arthur Lockwood's sixty percent.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.325
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 8.0,
+          "end": 10.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Gasps ripple through the guests.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.3375
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 10.0,
+          "end": 15.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "That's impossible. Lockwood's granddaughter died in the fire.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 15.0,
+          "end": 20.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "I didn't die, Chloe. I was hidden. From people like you.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.6
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 20.0,
+          "end": 23.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ethan stares at Ava, stunned.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.3375
+        },
+        {
+          "segment": 1,
+          "episode": 5,
+          "start": 23.0,
+          "end": 26.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "You lied to me this whole time?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.0
+        }
+      ],
+      "characters": [
+        "AVA",
+        "CHLOE",
+        "ETHAN",
+        "MR. HALE",
+        "VIVIAN"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [
+          "5 speaking characters — hard to follow in 30 s"
+        ],
+        "refined": null
+      },
+      "duration": 26.0,
+      "episodes": [
+        5
+      ]
+    },
+    {
+      "id": "P15",
+      "segments": [
+        {
+          "episode": 1,
+          "start": 46.0,
+          "end": 68.0,
+          "first_beat": 14,
+          "last_beat": 19
+        }
+      ],
+      "kind": "continuous",
+      "score": 50.76,
+      "heuristic_score": 50.76,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 24.0,
+        "cliffhanger": 0.0,
+        "standalone": 15.0,
+        "intensity": 9.16,
+        "pace": 2.84,
+        "duration_fit": 4.47,
+        "trope": 4.25,
+        "episode_end": 0.0,
+        "spoiler_penalty": -0.0
+      },
+      "hook": {
+        "text": "AVA (quietly): You'll regret this, Miss Vance.",
+        "type": "Shocking line",
+        "type_key": "shocking_line",
+        "at": 0.0,
+        "episode": 1,
+        "timestamp": 46.0,
+        "score": 0.8
+      },
+      "cliffhanger": {
+        "text": "MARCUS: Miss Ava, you don't have to endure this. Not for one more day.",
+        "type": "Soft ending (weak cliffhanger)",
+        "type_key": null,
+        "episode": 1,
+        "timestamp": 63.0,
+        "score": 0.0
+      },
+      "why": "Opens on a shocking line at 0.0s (“You'll regret this, Miss Vance.”) and cuts on an unresolved beat; the revenge setup needs no backstory.",
+      "tropes": [
+        "revenge"
+      ],
+      "flags": [
+        "soft_ending"
+      ],
+      "rank": 15,
+      "post_order": 10,
+      "post_rationale": "Shocking line 0.0s in; from ep 1, so new viewers land at the start of the story; switches angle to revenge to test what converts.",
+      "variants": {
+        "standard": {
+          "episode": 1,
+          "start": 46.0,
+          "end": 68.0,
+          "first_beat": 14,
+          "last_beat": 19,
+          "duration": 22.0
+        },
+        "tight": {
+          "episode": 1,
+          "start": 46.0,
+          "end": 68.0,
+          "first_beat": 14,
+          "last_beat": 19,
+          "duration": 22.0
+        },
+        "long": {
+          "episode": 1,
+          "start": 36.0,
+          "end": 68.0,
+          "first_beat": 11,
+          "last_beat": 19,
+          "duration": 32.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 46.0,
+          "end": 50.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "You'll regret this, Miss Vance.",
+          "manner": "quietly",
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.7
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 50.0,
+          "end": 55.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "Regret? You're nothing. A nobody who scrubs our toilets.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.79
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 55.0,
+          "end": 55.0,
+          "kind": "scene",
+          "speaker": null,
+          "text": "INT. SERVANTS' QUARTERS – NIGHT",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 55.0,
+          "end": 60.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ava washes the wine from her face in a cracked mirror.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 60.0,
+          "end": 63.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Marcus, the old butler, slips in and closes the door behind him.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 63.0,
+          "end": 68.0,
+          "kind": "dialogue",
+          "speaker": "MARCUS",
+          "text": "Miss Ava, you don't have to endure this. Not for one more day.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.0
+        }
+      ],
+      "characters": [
+        "AVA",
+        "CHLOE",
+        "MARCUS"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [],
+        "refined": null
+      },
+      "duration": 22.0,
+      "episodes": [
+        1
+      ]
+    },
+    {
+      "id": "P16",
+      "segments": [
+        {
+          "episode": 1,
+          "start": 14.0,
+          "end": 39.0,
+          "first_beat": 5,
+          "last_beat": 11
+        }
+      ],
+      "kind": "continuous",
+      "score": 47.8,
+      "heuristic_score": 47.8,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 24.72,
+        "cliffhanger": 0.0,
+        "standalone": 15.0,
+        "intensity": 5.6,
+        "pace": 3.5,
+        "duration_fit": 4.91,
+        "trope": 2.5,
+        "episode_end": 0.0,
+        "spoiler_penalty": -0.0
+      },
+      "hook": {
+        "text": "VIVIAN: Clumsy girl! Clean it up. On your knees.",
+        "type": "Shocking line",
+        "type_key": "shocking_line",
+        "at": 0.0,
+        "episode": 1,
+        "timestamp": 14.0,
+        "score": 0.824
+      },
+      "cliffhanger": {
+        "text": "(Chloe picks up a full glass of red wine and throws it in Ava's face.)",
+        "type": "Soft ending (weak cliffhanger)",
+        "type_key": null,
+        "episode": 1,
+        "timestamp": 36.0,
+        "score": 0.0
+      },
+      "why": "Opens on a shocking line at 0.0s (“Clumsy girl! Clean it up. On your knees.”) and cuts on an unresolved beat; the public-humiliation setup needs no backstory.",
+      "tropes": [
+        "slap_humiliation"
+      ],
+      "flags": [
+        "soft_ending"
+      ],
+      "rank": 16,
+      "post_order": 13,
+      "post_rationale": "Shocking line 0.0s in; from ep 1, so new viewers land at the start of the story; switches angle to public-humiliation to test what converts.",
+      "variants": {
+        "standard": {
+          "episode": 1,
+          "start": 14.0,
+          "end": 39.0,
+          "first_beat": 5,
+          "last_beat": 11,
+          "duration": 25.0
+        },
+        "tight": {
+          "episode": 1,
+          "start": 14.0,
+          "end": 39.0,
+          "first_beat": 5,
+          "last_beat": 11,
+          "duration": 25.0
+        },
+        "long": {
+          "episode": 1,
+          "start": 7.0,
+          "end": 39.0,
+          "first_beat": 3,
+          "last_beat": 11,
+          "duration": 32.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 14.0,
+          "end": 18.0,
+          "kind": "dialogue",
+          "speaker": "VIVIAN",
+          "text": "Clumsy girl! Clean it up. On your knees.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.778
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 18.0,
+          "end": 23.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Guests laugh. Ava kneels slowly, picking up shards with bare hands.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 23.0,
+          "end": 25.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "Yes, Mrs. Cross.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 25.0,
+          "end": 29.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ethan watches from the staircase, jaw tight.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 29.0,
+          "end": 32.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "Mother, that's enough.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 32.0,
+          "end": 36.0,
+          "kind": "dialogue",
+          "speaker": "CHLOE",
+          "text": "Darling, don't waste your pity on the help.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 36.0,
+          "end": 39.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Chloe picks up a full glass of red wine and throws it in Ava's face.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.0
+        }
+      ],
+      "characters": [
+        "AVA",
+        "CHLOE",
+        "ETHAN",
+        "VIVIAN"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [],
+        "refined": null
+      },
+      "duration": 25.0,
+      "episodes": [
+        1
+      ]
+    },
+    {
+      "id": "P17",
+      "segments": [
+        {
+          "episode": 1,
+          "start": 72.0,
+          "end": 97.0,
+          "first_beat": 21,
+          "last_beat": 27
+        }
+      ],
+      "kind": "continuous",
+      "score": 45.86,
+      "heuristic_score": 45.86,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 0.0,
+        "cliffhanger": 24.12,
+        "standalone": 15.0,
+        "intensity": 3.42,
+        "pace": 3.5,
+        "duration_fit": 4.91,
+        "trope": 0.0,
+        "episode_end": 3.0,
+        "spoiler_penalty": -0.0
+      },
+      "hook": {
+        "text": "MARCUS: Your grandfather's will is read on Friday. After that, this house is yours.",
+        "type": "Opening line (weak hook)",
+        "type_key": null,
+        "at": 0.0,
+        "episode": 1,
+        "timestamp": 72.0,
+        "score": 0.0
+      },
+      "cliffhanger": {
+        "text": "(SMASH CUT TO BLACK.)",
+        "type": "Writer-marked cliffhanger",
+        "type_key": "explicit_marker",
+        "episode": 1,
+        "timestamp": 95.0,
+        "score": 0.965
+      },
+      "why": "Builds quickly from a quiet open and cuts on the writers' own cliffhanger beat; reads clearly to a first-time viewer.",
+      "tropes": [],
+      "flags": [
+        "weak_hook"
+      ],
+      "rank": 17,
+      "post_order": 15,
+      "post_rationale": "From ep 1, so new viewers land at the start of the story.",
+      "variants": {
+        "standard": {
+          "episode": 1,
+          "start": 72.0,
+          "end": 97.0,
+          "first_beat": 21,
+          "last_beat": 27,
+          "duration": 25.0
+        },
+        "tight": {
+          "episode": 1,
+          "start": 72.0,
+          "end": 97.0,
+          "first_beat": 21,
+          "last_beat": 27,
+          "duration": 25.0
+        },
+        "long": {
+          "episode": 1,
+          "start": 63.0,
+          "end": 97.0,
+          "first_beat": 19,
+          "last_beat": 27,
+          "duration": 34.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 72.0,
+          "end": 78.0,
+          "kind": "dialogue",
+          "speaker": "MARCUS",
+          "text": "Your grandfather's will is read on Friday. After that, this house is yours.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 78.0,
+          "end": 82.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "Then let them enjoy it until Friday.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 82.0,
+          "end": 85.0,
+          "kind": "sfx",
+          "speaker": null,
+          "text": "Footsteps outside. The door handle turns.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 85.0,
+          "end": 88.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ava and Marcus freeze.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 88.0,
+          "end": 92.0,
+          "kind": "dialogue",
+          "speaker": "ETHAN",
+          "text": "Who's in there with you?",
+          "manner": "off-screen",
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.075
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 92.0,
+          "end": 95.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "The door swings open. Ethan stands in the doorway.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 1,
+          "start": 95.0,
+          "end": 97.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "SMASH CUT TO BLACK.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.45
+        }
+      ],
+      "characters": [
+        "AVA",
+        "ETHAN",
+        "MARCUS"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [],
+        "refined": null
+      },
+      "duration": 25.0,
+      "episodes": [
+        1
+      ]
+    },
+    {
+      "id": "P18",
+      "segments": [
+        {
+          "episode": 6,
+          "start": 45.0,
+          "end": 72.0,
+          "first_beat": 15,
+          "last_beat": 22
+        }
+      ],
+      "kind": "continuous",
+      "score": 45.02,
+      "heuristic_score": 45.02,
+      "llm_score": null,
+      "breakdown": {
+        "hook": 28.5,
+        "cliffhanger": 0.0,
+        "standalone": 15.0,
+        "intensity": 5.31,
+        "pace": 3.24,
+        "duration_fit": 5.0,
+        "trope": 0.0,
+        "episode_end": 0.0,
+        "spoiler_penalty": -4.09
+      },
+      "hook": {
+        "text": "MARCUS: An hour later, the east wing was burning.",
+        "type": "Physical shock",
+        "type_key": "physical",
+        "at": 0.0,
+        "episode": 6,
+        "timestamp": 45.0,
+        "score": 0.95
+      },
+      "cliffhanger": {
+        "text": "VIVIAN: Ava. I owe you an apology. For the knees. For everything.",
+        "type": "Soft ending (weak cliffhanger)",
+        "type_key": null,
+        "episode": 6,
+        "timestamp": 67.0,
+        "score": 0.0
+      },
+      "why": "Opens on a physical shock at 0.0s (“An hour later, the east wing was burning.”) and cuts on an unresolved beat; reads clearly to a first-time viewer.",
+      "tropes": [],
+      "flags": [
+        "soft_ending",
+        "spoiler_risk"
+      ],
+      "rank": 18,
+      "post_order": 18,
+      "post_rationale": "Physical shock 0.0s in; held for a later wave: comes from ep 6 and risks spoiling a twist.",
+      "variants": {
+        "standard": {
+          "episode": 6,
+          "start": 45.0,
+          "end": 72.0,
+          "first_beat": 15,
+          "last_beat": 22,
+          "duration": 27.0
+        },
+        "tight": {
+          "episode": 6,
+          "start": 45.0,
+          "end": 72.0,
+          "first_beat": 15,
+          "last_beat": 22,
+          "duration": 27.0
+        },
+        "long": {
+          "episode": 6,
+          "start": 38.0,
+          "end": 72.0,
+          "first_beat": 14,
+          "last_beat": 22,
+          "duration": 34.0
+        }
+      },
+      "transcript": [
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 45.0,
+          "end": 49.0,
+          "kind": "dialogue",
+          "speaker": "MARCUS",
+          "text": "An hour later, the east wing was burning.",
+          "manner": null,
+          "timed": true,
+          "is_hook": true,
+          "is_cliff": false,
+          "intensity": 0.7125
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 49.0,
+          "end": 52.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "And you said nothing?",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.075
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 52.0,
+          "end": 57.0,
+          "kind": "dialogue",
+          "speaker": "MARCUS",
+          "text": "He threatened my family. I'm a coward, Miss.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 57.0,
+          "end": 60.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Ava sets down her cup. Silence.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 60.0,
+          "end": 63.0,
+          "kind": "dialogue",
+          "speaker": "AVA",
+          "text": "Thank you for telling me now.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 63.0,
+          "end": 63.0,
+          "kind": "scene",
+          "speaker": null,
+          "text": "INT. CROSS MANSION KITCHEN – MORNING",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 63.0,
+          "end": 67.0,
+          "kind": "action",
+          "speaker": null,
+          "text": "Vivian makes coffee herself for the first time. Awkward.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": false,
+          "intensity": 0.0
+        },
+        {
+          "segment": 1,
+          "episode": 6,
+          "start": 67.0,
+          "end": 72.0,
+          "kind": "dialogue",
+          "speaker": "VIVIAN",
+          "text": "Ava. I owe you an apology. For the knees. For everything.",
+          "manner": null,
+          "timed": true,
+          "is_hook": false,
+          "is_cliff": true,
+          "intensity": 0.0
+        }
+      ],
+      "characters": [
+        "AVA",
+        "MARCUS",
+        "VIVIAN"
+      ],
+      "source": "rules",
+      "llm_notes": {
+        "standalone_reasons": [],
+        "refined": null
+      },
+      "duration": 27.0,
+      "episodes": [
+        6
+      ]
+    }
+  ],
+  "posting_plan": [
+    {
+      "post_order": 1,
+      "id": "P03",
+      "rank": 3,
+      "rationale": "Strongest spoiler-safe hook in the set; physical shock 0.0s in; from ep 3, so new viewers land at the start of the story."
+    },
+    {
+      "post_order": 2,
+      "id": "P04",
+      "rank": 4,
+      "rationale": "Shocking line 0.0s in; from ep 1, so new viewers land at the start of the story; switches angle to revenge to test what converts."
+    },
+    {
+      "post_order": 3,
+      "id": "P05",
+      "rank": 5,
+      "rationale": "Physical shock 0.0s in; from ep 2, so new viewers land at the start of the story; switches angle to betrayal to test what converts."
+    },
+    {
+      "post_order": 4,
+      "id": "P01",
+      "rank": 1,
+      "rationale": "Shocking line 0.0s in; held for a later wave: comes from ep 4 and risks spoiling a twist; switches angle to public-humiliation to test what converts."
+    },
+    {
+      "post_order": 5,
+      "id": "P11",
+      "rank": 11,
+      "rationale": "From ep 3, so new viewers land at the start of the story."
+    },
+    {
+      "post_order": 6,
+      "id": "P07",
+      "rank": 7,
+      "rationale": "Physical shock 0.0s in; from ep 2, so new viewers land at the start of the story; switches angle to public-humiliation to test what converts."
+    },
+    {
+      "post_order": 7,
+      "id": "P02",
+      "rank": 2,
+      "rationale": "Reveal 0.0s in; held for a later wave: comes from ep 8 and risks spoiling a twist; switches angle to secret-pregnancy to test what converts."
+    },
+    {
+      "post_order": 8,
+      "id": "P06",
+      "rank": 6,
+      "rationale": "Physical shock 0.0s in; held for a later wave: comes from ep 6 and risks spoiling a twist."
+    },
+    {
+      "post_order": 9,
+      "id": "P09",
+      "rank": 9,
+      "rationale": "Shocking line 0.0s in; held for a later wave: comes from ep 5 and risks spoiling a twist."
+    },
+    {
+      "post_order": 10,
+      "id": "P15",
+      "rank": 15,
+      "rationale": "Shocking line 0.0s in; from ep 1, so new viewers land at the start of the story; switches angle to revenge to test what converts."
+    },
+    {
+      "post_order": 11,
+      "id": "P10",
+      "rank": 10,
+      "rationale": "Held for a later wave: comes from ep 5 and risks spoiling a twist."
+    },
+    {
+      "post_order": 12,
+      "id": "P08",
+      "rank": 8,
+      "rationale": "Reveal 0.0s in; held for a later wave: comes from ep 8 and risks spoiling a twist; switches angle to secret-pregnancy to test what converts."
+    },
+    {
+      "post_order": 13,
+      "id": "P16",
+      "rank": 16,
+      "rationale": "Shocking line 0.0s in; from ep 1, so new viewers land at the start of the story; switches angle to public-humiliation to test what converts."
+    },
+    {
+      "post_order": 14,
+      "id": "P12",
+      "rank": 12,
+      "rationale": "Held for a later wave: comes from ep 7 and risks spoiling a twist; switches angle to billionaire/heir to test what converts."
+    },
+    {
+      "post_order": 15,
+      "id": "P17",
+      "rank": 17,
+      "rationale": "From ep 1, so new viewers land at the start of the story."
+    },
+    {
+      "post_order": 16,
+      "id": "P14",
+      "rank": 14,
+      "rationale": "Held for a later wave: comes from ep 5 and risks spoiling a twist; switches angle to billionaire/heir to test what converts."
+    },
+    {
+      "post_order": 17,
+      "id": "P13",
+      "rank": 13,
+      "rationale": "Held for a later wave: comes from ep 6 and risks spoiling a twist."
+    },
+    {
+      "post_order": 18,
+      "id": "P18",
+      "rank": 18,
+      "rationale": "Physical shock 0.0s in; held for a later wave: comes from ep 6 and risks spoiling a twist."
+    }
+  ],
+  "heatmap": [
+    {
+      "episode": 1,
+      "bin_seconds": 5.0,
+      "values": [
+        0.0,
+        0.0,
+        0.778,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7,
+        0.79,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.075,
+        0.0,
+        0.45
+      ],
+      "duration": 97.0
+    },
+    {
+      "episode": 2,
+      "bin_seconds": 5.0,
+      "values": [
+        0.0,
+        0.0,
+        0.075,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.72,
+        0.791,
+        0.1,
+        0.735,
+        0.3,
+        0.1,
+        0.713,
+        0.0,
+        0.0,
+        0.1
+      ],
+      "duration": 99.46
+    },
+    {
+      "episode": 3,
+      "bin_seconds": 5.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.45,
+        0.0,
+        0.6,
+        0.735,
+        0.0,
+        0.45,
+        0.075,
+        0.075,
+        0.075,
+        0.0,
+        0.338,
+        0.0,
+        0.713,
+        0.0,
+        0.075,
+        0.0
+      ],
+      "duration": 100.0
+    },
+    {
+      "episode": 4,
+      "bin_seconds": 5.0,
+      "values": [
+        0.0,
+        0.075,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.0,
+        0.0,
+        0.1,
+        0.1,
+        0.0,
+        0.678,
+        0.812,
+        0.812,
+        0.665,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration": 103.0
+    },
+    {
+      "episode": 5,
+      "bin_seconds": 5.0,
+      "values": [
+        0.325,
+        0.338,
+        0.0,
+        0.6,
+        0.338,
+        0.0,
+        0.0,
+        0.0,
+        0.075,
+        0.525,
+        0.525,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.713,
+        0.1,
+        0.075,
+        0.0
+      ],
+      "duration": 90.0
+    },
+    {
+      "episode": 6,
+      "bin_seconds": 5.0,
+      "values": [
+        0.713,
+        0.45,
+        0.428,
+        0.075,
+        0.338,
+        0.075,
+        0.0,
+        0.1,
+        0.0,
+        0.713,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration": 95.23
+    },
+    {
+      "episode": 7,
+      "bin_seconds": 5.0,
+      "values": [
+        0.0,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.45,
+        0.0,
+        0.0,
+        0.1,
+        0.075,
+        0.0,
+        0.0,
+        0.775,
+        0.0,
+        0.585,
+        0.0,
+        0.0
+      ],
+      "duration": 80.0
+    },
+    {
+      "episode": 8,
+      "bin_seconds": 5.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.075,
+        0.0,
+        0.1,
+        0.0,
+        0.775,
+        0.859,
+        0.338,
+        0.0,
+        0.0,
+        0.45
+      ],
+      "duration": 87.0
+    }
+  ],
+  "quality": {
+    "flag_counts": {
+      "spoiler_risk": {
+        "count": 5,
+        "share": 0.278,
+        "meaning": "Reveals a late twist — post later"
+      },
+      "visual_hook": {
+        "count": 4,
+        "share": 0.222,
+        "meaning": "Hook is a visual action — depends on how it was shot"
+      },
+      "soft_ending": {
+        "count": 4,
+        "share": 0.222,
+        "meaning": "Soft ending — the last beat partly resolves the tension"
+      },
+      "jump_cuts": {
+        "count": 3,
+        "share": 0.167,
+        "meaning": "Stitched from several moments — check continuity"
+      },
+      "weak_hook": {
+        "count": 2,
+        "share": 0.111,
+        "meaning": "Weak hook — nothing in the first 3 s clearly stops the scroll"
+      }
+    },
+    "clean_promos": 8,
+    "clean_share": 0.444,
+    "review_first": [
+      {
+        "id": "P18",
+        "rank": 18,
+        "flags": [
+          "Soft ending — the last beat partly resolves the tension",
+          "Reveals a late twist — post later"
+        ]
+      },
+      {
+        "id": "P08",
+        "rank": 8,
+        "flags": [
+          "Reveals a late twist — post later",
+          "Stitched from several moments — check continuity"
+        ]
+      },
+      {
+        "id": "P07",
+        "rank": 7,
+        "flags": [
+          "Soft ending — the last beat partly resolves the tension",
+          "Hook is a visual action — depends on how it was shot"
+        ]
+      },
+      {
+        "id": "P06",
+        "rank": 6,
+        "flags": [
+          "Reveals a late twist — post later",
+          "Hook is a visual action — depends on how it was shot"
+        ]
+      },
+      {
+        "id": "P05",
+        "rank": 5,
+        "flags": [
+          "Stitched from several moments — check continuity",
+          "Hook is a visual action — depends on how it was shot"
+        ]
+      }
+    ],
+    "parse_issues": [],
+    "known_failure_modes": [
+      {
+        "mode": "Visual-only beats",
+        "detail": "If a key moment is only in the picture (a look, a reveal shot) and the screenplay line is bland, rules under-score it."
+      },
+      {
+        "mode": "Sarcasm and subtext",
+        "detail": "'Oh, how nice' scores as resolution; the cue lexicon reads words, not tone. The LLM pass fixes most of these."
+      },
+      {
+        "mode": "Recurring callbacks",
+        "detail": "Lines that reference earlier episodes ('like that night') are penalised even when the scene still lands for new viewers."
+      },
+      {
+        "mode": "Over-reliance on '?'",
+        "detail": "A question at the end looks like a cliffhanger even when it is rhetorical."
+      },
+      {
+        "mode": "Stitched promos",
+        "detail": "Montages are scored conservatively; editors' best multi-moment edits are the most likely misses."
+      },
+      {
+        "mode": "Timestamps",
+        "detail": "When lines lack timestamps, IN/OUT points are interpolated from word counts and can drift by 1–2 s."
+      }
+    ]
+  },
+  "metrics": {
+    "input": {
+      "episodes": 8,
+      "beats": 211,
+      "scenes": 25,
+      "characters": 11,
+      "show_minutes": 12.53,
+      "timestamp_coverage": 1.0,
+      "warnings": 0
+    },
+    "output": {
+      "candidates_scored": 78,
+      "promos": 18,
+      "montages": 3,
+      "duration_median_s": 26.5,
+      "duration_min_s": 22.0,
+      "duration_max_s": 35.0
+    },
+    "brief_compliance": {
+      "duration_in_range": 1.0,
+      "hook_within_3s": 0.889,
+      "strong_cliffhanger": 0.778,
+      "standalone_ok": 1.0,
+      "all_three": 0.667
+    },
+    "quality": {
+      "mean_score": 65.3,
+      "top10_mean_score": 74.9,
+      "mean_hook": 0.749,
+      "mean_cliffhanger": 0.652,
+      "flagged_share": 0.722
+    },
+    "diversity": {
+      "episodes_in_top10": 7,
+      "tropes_in_top10": 4,
+      "episodes_covered": 8,
+      "episode_coverage": 1.0
+    },
+    "operations": {
+      "runtime_s": 0.279,
+      "stage_seconds": {
+        "ingest": 0.134,
+        "parse": 0.039,
+        "signals": 0.045,
+        "candidates": 0.03,
+        "montages": 0.026,
+        "rank": 0.005
+      },
+      "seconds_per_episode": 0.0349,
+      "llm": {
+        "used": false,
+        "provider": null,
+        "model": null,
+        "calls": 0,
+        "cache_hits": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "judged": 0,
+        "failed_batches": 0,
+        "boundary_edits": 0
+      }
+    },
+    "degraded_stages": []
+  },
+  "comparison": null,
+  "manual": [],
+  "llm_report": {},
+  "pool": [
+    {
+      "episode": 4,
+      "start": 74.0,
+      "end": 96.0,
+      "segments": 1,
+      "score": 83.79
+    },
+    {
+      "episode": 8,
+      "start": 63.0,
+      "end": 87.0,
+      "segments": 1,
+      "score": 83.64
+    },
+    {
+      "episode": 2,
+      "start": 50.0,
+      "end": 100.0,
+      "segments": 2,
+      "score": 79.54
+    },
+    {
+      "episode": 3,
+      "start": 43.0,
+      "end": 78.0,
+      "segments": 1,
+      "score": 78.92
+    },
+    {
+      "episode": 2,
+      "start": 67.0,
+      "end": 96.0,
+      "segments": 2,
+      "score": 78.33
+    },
+    {
+      "episode": 4,
+      "start": 77.0,
+      "end": 80.0,
+      "segments": 2,
+      "score": 78.12
+    },
+    {
+      "episode": 3,
+      "start": 43.0,
+      "end": 96.0,
+      "segments": 2,
+      "score": 78.02
+    },
+    {
+      "episode": 1,
+      "start": 50.0,
+      "end": 100.0,
+      "segments": 2,
+      "score": 77.79
+    },
+    {
+      "episode": 2,
+      "start": 67.0,
+      "end": 80.0,
+      "segments": 3,
+      "score": 77.17
+    },
+    {
+      "episode": 2,
+      "start": 67.0,
+      "end": 67.0,
+      "segments": 2,
+      "score": 74.31
+    },
+    {
+      "episode": 6,
+      "start": 0.0,
+      "end": 28.0,
+      "segments": 1,
+      "score": 73.12
+    },
+    {
+      "episode": 3,
+      "start": 36.0,
+      "end": 58.0,
+      "segments": 1,
+      "score": 72.19
+    },
+    {
+      "episode": 3,
+      "start": 75.0,
+      "end": 100.0,
+      "segments": 1,
+      "score": 71.1
+    },
+    {
+      "episode": 2,
+      "start": 67.0,
+      "end": 99.46,
+      "segments": 1,
+      "score": 70.51
+    },
+    {
+      "episode": 8,
+      "start": 66.0,
+      "end": 66.0,
+      "segments": 2,
+      "score": 70.32
+    },
+    {
+      "episode": 4,
+      "start": 82.0,
+      "end": 103.0,
+      "segments": 1,
+      "score": 69.16
+    },
+    {
+      "episode": 5,
+      "start": 15.0,
+      "end": 44.0,
+      "segments": 1,
+      "score": 68.42
+    },
+    {
+      "episode": 5,
+      "start": 50.0,
+      "end": 81.0,
+      "segments": 1,
+      "score": 68.2
+    },
+    {
+      "episode": 3,
+      "start": 29.0,
+      "end": 55.0,
+      "segments": 1,
+      "score": 66.41
+    },
+    {
+      "episode": 7,
+      "start": 28.0,
+      "end": 51.0,
+      "segments": 1,
+      "score": 61.45
+    },
+    {
+      "episode": 6,
+      "start": 6.0,
+      "end": 38.0,
+      "segments": 1,
+      "score": 60.91
+    },
+    {
+      "episode": 6,
+      "start": 23.0,
+      "end": 52.0,
+      "segments": 1,
+      "score": 54.49
+    },
+    {
+      "episode": 5,
+      "start": 0.0,
+      "end": 26.0,
+      "segments": 1,
+      "score": 54.18
+    },
+    {
+      "episode": 2,
+      "start": 50.0,
+      "end": 75.0,
+      "segments": 1,
+      "score": 54.1
+    },
+    {
+      "episode": 1,
+      "start": 46.0,
+      "end": 68.0,
+      "segments": 1,
+      "score": 50.76
+    },
+    {
+      "episode": 2,
+      "start": 59.0,
+      "end": 87.0,
+      "segments": 1,
+      "score": 50.0
+    },
+    {
+      "episode": 1,
+      "start": 50.0,
+      "end": 78.0,
+      "segments": 1,
+      "score": 49.36
+    },
+    {
+      "episode": 1,
+      "start": 14.0,
+      "end": 39.0,
+      "segments": 1,
+      "score": 47.8
+    },
+    {
+      "episode": 2,
+      "start": 43.0,
+      "end": 67.0,
+      "segments": 1,
+      "score": 46.03
+    },
+    {
+      "episode": 1,
+      "start": 72.0,
+      "end": 97.0,
+      "segments": 1,
+      "score": 45.86
+    },
+    {
+      "episode": 6,
+      "start": 45.0,
+      "end": 72.0,
+      "segments": 1,
+      "score": 45.02
+    },
+    {
+      "episode": 7,
+      "start": 49.0,
+      "end": 80.0,
+      "segments": 1,
+      "score": 44.98
+    },
+    {
+      "episode": 5,
+      "start": 62.0,
+      "end": 90.0,
+      "segments": 1,
+      "score": 43.7
+    },
+    {
+      "episode": 2,
+      "start": 30.0,
+      "end": 62.0,
+      "segments": 1,
+      "score": 43.45
+    },
+    {
+      "episode": 8,
+      "start": 42.0,
+      "end": 66.0,
+      "segments": 1,
+      "score": 43.3
+    },
+    {
+      "episode": 8,
+      "start": 54.0,
+      "end": 80.0,
+      "segments": 1,
+      "score": 42.05
+    },
+    {
+      "episode": 3,
+      "start": 55.0,
+      "end": 82.0,
+      "segments": 1,
+      "score": 41.55
+    },
+    {
+      "episode": 5,
+      "start": 47.0,
+      "end": 70.0,
+      "segments": 1,
+      "score": 41.1
+    },
+    {
+      "episode": 1,
+      "start": 25.0,
+      "end": 50.0,
+      "segments": 1,
+      "score": 40.87
+    },
+    {
+      "episode": 4,
+      "start": 48.0,
+      "end": 71.0,
+      "segments": 1,
+      "score": 39.47
+    },
+    {
+      "episode": 4,
+      "start": 59.0,
+      "end": 82.0,
+      "segments": 1,
+      "score": 38.67
+    },
+    {
+      "episode": 1,
+      "start": 60.0,
+      "end": 88.0,
+      "segments": 1,
+      "score": 37.7
+    },
+    {
+      "episode": 6,
+      "start": 63.0,
+      "end": 95.23,
+      "segments": 1,
+      "score": 37.45
+    },
+    {
+      "episode": 7,
+      "start": 7.0,
+      "end": 42.0,
+      "segments": 1,
+      "score": 36.3
+    },
+    {
+      "episode": 4,
+      "start": 0.0,
+      "end": 25.0,
+      "segments": 1,
+      "score": 36.13
+    },
+    {
+      "episode": 4,
+      "start": 9.0,
+      "end": 44.0,
+      "segments": 1,
+      "score": 36.1
+    },
+    {
+      "episode": 7,
+      "start": 21.0,
+      "end": 44.0,
+      "segments": 1,
+      "score": 35.13
+    },
+    {
+      "episode": 8,
+      "start": 24.0,
+      "end": 51.0,
+      "segments": 1,
+      "score": 34.88
+    },
+    {
+      "episode": 8,
+      "start": 0.0,
+      "end": 24.0,
+      "segments": 1,
+      "score": 34.59
+    },
+    {
+      "episode": 3,
+      "start": 20.0,
+      "end": 43.0,
+      "segments": 1,
+      "score": 33.62
+    },
+    {
+      "episode": 5,
+      "start": 8.0,
+      "end": 33.0,
+      "segments": 1,
+      "score": 33.54
+    },
+    {
+      "episode": 3,
+      "start": 65.0,
+      "end": 87.0,
+      "segments": 1,
+      "score": 32.66
+    },
+    {
+      "episode": 8,
+      "start": 16.0,
+      "end": 44.0,
+      "segments": 1,
+      "score": 30.89
+    },
+    {
+      "episode": 7,
+      "start": 42.0,
+      "end": 63.0,
+      "segments": 1,
+      "score": 30.48
+    },
+    {
+      "episode": 6,
+      "start": 52.0,
+      "end": 86.0,
+      "segments": 1,
+      "score": 28.04
+    },
+    {
+      "episode": 8,
+      "start": 28.0,
+      "end": 63.0,
+      "segments": 1,
+      "score": 27.52
+    },
+    {
+      "episode": 2,
+      "start": 23.0,
+      "end": 50.0,
+      "segments": 1,
+      "score": 27.34
+    },
+    {
+      "episode": 4,
+      "start": 66.0,
+      "end": 89.0,
+      "segments": 1,
+      "score": 27.11
+    },
+    {
+      "episode": 1,
+      "start": 39.0,
+      "end": 60.0,
+      "segments": 1,
+      "score": 25.75
+    },
+    {
+      "episode": 1,
+      "start": 3.0,
+      "end": 23.0,
+      "segments": 1,
+      "score": 23.7
+    },
+    {
+      "episode": 1,
+      "start": 7.0,
+      "end": 32.0,
+      "segments": 1,
+      "score": 23.55
+    },
+    {
+      "episode": 6,
+      "start": 36.0,
+      "end": 63.0,
+      "segments": 1,
+      "score": 20.67
+    },
+    {
+      "episode": 4,
+      "start": 35.0,
+      "end": 66.0,
+      "segments": 1,
+      "score": 20.31
+    },
+    {
+      "episode": 5,
+      "start": 42.0,
+      "end": 62.0,
+      "segments": 1,
+      "score": 19.94
+    },
+    {
+      "episode": 5,
+      "start": 29.0,
+      "end": 53.0,
+      "segments": 1,
+      "score": 19.89
+    },
+    {
+      "episode": 2,
+      "start": 13.0,
+      "end": 38.0,
+      "segments": 1,
+      "score": 19.47
+    },
+    {
+      "episode": 4,
+      "start": 27.0,
+      "end": 51.0,
+      "segments": 1,
+      "score": 18.95
+    },
+    {
+      "episode": 3,
+      "start": 16.0,
+      "end": 36.0,
+      "segments": 1,
+      "score": 18.79
+    },
+    {
+      "episode": 5,
+      "start": 33.0,
+      "end": 67.0,
+      "segments": 1,
+      "score": 18.56
+    },
+    {
+      "episode": 3,
+      "start": 0.0,
+      "end": 33.0,
+      "segments": 1,
+      "score": 18.52
+    },
+    {
+      "episode": 7,
+      "start": 0.0,
+      "end": 32.0,
+      "segments": 1,
+      "score": 17.76
+    },
+    {
+      "episode": 2,
+      "start": 0.0,
+      "end": 27.0,
+      "segments": 1,
+      "score": 17.48
+    },
+    {
+      "episode": 7,
+      "start": 16.0,
+      "end": 36.0,
+      "segments": 1,
+      "score": 16.53
+    },
+    {
+      "episode": 7,
+      "start": 36.0,
+      "end": 56.0,
+      "segments": 1,
+      "score": 16.39
+    },
+    {
+      "episode": 4,
+      "start": 18.0,
+      "end": 38.0,
+      "segments": 1,
+      "score": 16.31
+    },
+    {
+      "episode": 8,
+      "start": 34.0,
+      "end": 54.0,
+      "segments": 1,
+      "score": 15.84
+    },
+    {
+      "episode": 8,
+      "start": 4.0,
+      "end": 34.0,
+      "segments": 1,
+      "score": 12.09
+    },
+    {
+      "episode": 4,
+      "start": 11.0,
+      "end": 31.0,
+      "segments": 1,
+      "score": 11.76
+    }
+  ],
+  "warnings": []
+}
