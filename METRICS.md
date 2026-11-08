@@ -1,12 +1,12 @@
 # METRICS — test results and the numbers that matter
 
-_Generated 2026-11-07 21:15 by `python scripts/generate_metrics.py`. Re-run it after adding the real input pack and your manual promos: `python scripts/generate_metrics.py --input data/input --manual data/manual_promos/my_manual_promos.csv`._
+_Generated 2026-11-08 18:28 by `python scripts/generate_metrics.py`. Re-run it after adding the real input pack and your manual promos: `python scripts/generate_metrics.py --input data/input --manual data/manual_promos/my_manual_promos.csv`._
 
 > **Honesty note.** The section *Real input pack* below is a run on Kuku's show. Brief-compliance numbers there measure the tool against its own thresholds (hook cue ≥ 0.4 in the first 3 s, cliffhanger ≥ 0.5, no context flags), so they show the picks are well-formed, not that they are the best promos. Agreement numbers (recall, cut-point error) are only meaningful against an editor's independent picks: the sample show's manual promos were picked by the same person who wrote the rules, so treat them as a smoke test. Re-run with `--manual` and your own picks for the real benchmark.
 
 ## Real input pack
 
-- 50 episodes, 3727 lines/actions, 100% timestamped, runtime 3.7s, LLM: none (0 calls, 0 tokens).
+- 50 episodes, 3727 lines/actions, 100% timestamped, runtime 3.9s, LLM: none (0 calls, 0 tokens).
 - Brief compliance: length 100% · hook ≤3s 100% · strong cliffhanger 100% · stand-alone 100% · all three 100%.
 - Output: 30 promos from 865 candidates, median 34.9 s; 10 episodes and 4 tropes in the top 10; 37% carry a warning flag; degraded stages: none.
 
@@ -27,7 +27,7 @@ _No manual promos supplied yet: add them with `--manual` to get recall, cut-poin
 
 ## 1. Test suite
 
-**126 tests, 0 failures, 0 errors, 0 skipped — ✅ all passing** (9.8 s).
+**126 tests, 0 failures, 0 errors, 0 skipped — ✅ all passing** (10.1 s).
 
 | Test file | What it covers | Passed | Failed |
 |---|---|---:|---:|
@@ -38,7 +38,7 @@ _No manual promos supplied yet: add them with `--manual` to get recall, cut-poin
 | `test_e2e.py` | CLI run / parse / learn exactly as a user runs them | 3 | 0 |
 | `test_exports.py` | CSV rows, cut sheet handles/order, valid CMX3600 EDL, ffmpeg script, HTML/MD reports, full output folder | 5 | 0 |
 | `test_ingest.py` | Folders, nested zips, junk files, episode numbering, 6 screenplay layouts, interpolation, PDF furniture | 12 | 0 |
-| `test_llm.py` | Key → provider detection (15 cases), env overrides, JSON repair, cache, mock re-rank, guarded edits, outage fallback | 24 | 0 |
+| `test_llm.py` | Key → provider detection (15 cases), env overrides, JSON repair, cache, mock re-rank, guarded edits, outage fallback | 27 | 0 |
 | `test_ranking.py` | Brief constraints on every promo, beat-aligned cuts, rank/post order, overlap + episode caps, platform presets, learner | 6 | 0 |
 | `test_real_pack.py` |  | 3 | 0 |
 | `test_robustness.py` | 12 layout mutations, wrong/missing extensions, HTML/ODT, no timestamps, garbage, fallback reader, min-score relaxation, failing stage, failing export, corrupt config, bad regex, LLM fallback chain, circuit breaker | 25 | 0 |
@@ -62,7 +62,7 @@ _No manual promos supplied yet: add them with `--manual` to get recall, cut-poin
 
 ## 3. Results on the sample show (rules only, no API key)
 
-8 episodes · 211 beats · 100% timestamped · 101 candidates scored → **15 promos** (2 stitched) in **0.35 s**.
+8 episodes · 211 beats · 100% timestamped · 101 candidates scored → **15 promos** (2 stitched) in **0.33 s**.
 
 | Brief requirement | Result |
 |---|---:|
@@ -148,7 +148,7 @@ Read this as: if removing a signal does not change recall on the sample, the sam
 
 ## 7. Scale and cost
 
-**50-episode show** (sample episodes cycled to 50, 1319 beats, 78.45 min of screen time): rules-only pipeline median **1.64 s** over 3 runs (33 ms per episode), 589 candidates scored → 30 promos. Memory: tens of MB.
+**50-episode show** (sample episodes cycled to 50, 1319 beats, 78.45 min of screen time): rules-only pipeline median **1.50 s** over 3 runs (30 ms per episode), 589 candidates scored → 30 promos. Memory: tens of MB.
 
 **LLM re-rank cost** (measured prompt sizes for this 50-episode run, top 30 candidates, 6 calls):
 ≈ 10,985 input + 3,300 output tokens per show.
